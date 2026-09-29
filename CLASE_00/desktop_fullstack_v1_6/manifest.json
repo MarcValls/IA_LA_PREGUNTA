@@ -1,0 +1,32 @@
+{
+  "project": "IA. LA PREGUNTA",
+  "artifact": "Clase 00 interactiva · Escritorio FULLSTACK",
+  "version": "1.6.1",
+  "mode": "FULLSTACK_LOCAL_DESKTOP",
+  "entrypoint_windows": "INICIAR_INTERACTIVO.cmd",
+  "frontend": "frontend/index.html",
+  "backend": "backend/server.py",
+  "database": "data/ialp_clase00.sqlite3",
+  "ollama_default": "http://127.0.0.1:11434",
+  "reference_pdf": "reference/IA_LA_PREGUNTA_MANUAL_ALUMNO_CLASE_00_v0.7_PORTADA_REFINADA.pdf",
+  "features": [
+    "split_teacher_document_50_50",
+    "semantic_focus_sequence",
+    "teacher_document_sync",
+    "exact_fragment_highlight",
+    "chat_to_content_arrow",
+    "rich_safe_teacher_messages",
+    "teacher_attention_pulse",
+    "compact_collapsible_lesson_controls",
+    "sqlite_progress",
+    "ollama_backend_proxy",
+    "desktop_equal_split_50_50",
+    "configurable_teacher_chat_font_size",
+    "persisted_ui_preferences",
+    "configurable_lesson_font_size",
+    "persisted_lesson_typography"
+  ],
+  "database_created_at_runtime": true,
+  "mobile_status": "NOT_INCLUDED_USE_REPO_IA_LA_PREGUNTA",
+  "capacitor_status": "NOT_INCLUDED"
+}

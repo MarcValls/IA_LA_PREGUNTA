@@ -1,0 +1,29 @@
+# Dependencias
+node_modules/
+*/node_modules/
+
+# Estado del agente Pi
+.goals/
+
+# Artefactos de build / empaquetado
+**/capacitor/dist/
+**/capacitor/android/app/build/
+**/capacitor/android/build/
+**/capacitor/android/capacitor-cordova-android-plugins/build/
+**/capacitor/android/app/src/main/assets/public/
+*.apk
+*.aab
+
+# Backups y archivos basura
+*.bak
+NUL
+
+# Cachés
+**/.gradle/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

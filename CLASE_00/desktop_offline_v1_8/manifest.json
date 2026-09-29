@@ -1,0 +1,25 @@
+{
+  "name": "IA. LA PREGUNTA Clase 00 · Escritorio OFFLINE",
+  "version": "1.8.1",
+  "mode": "offline_deterministic_desktop",
+  "steps": 163,
+  "required_steps": 12,
+  "entrypoints": {
+    "desktop": "frontend/index.html"
+  },
+  "mobile_contract": "NOT_INCLUDED_USE_REPO_IA_LA_PREGUNTA",
+  "features": [
+    "split_teacher_document_50_50",
+    "semantic_focus_sequence",
+    "teacher_document_sync",
+    "exact_fragment_highlight",
+    "chat_to_content_arrow",
+    "teacher_attention_pulse",
+    "offline_simulation",
+    "no_backend_required",
+    "no_ollama_required",
+    "local_storage_progress",
+    "configurable_teacher_chat_font_size",
+    "configurable_lesson_font_size"
+  ]
+}
