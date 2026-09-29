@@ -1,0 +1,25 @@
+# Dependencias
+node_modules/
+*/node_modules/
+
+# Estado del agente Pi
+.goals/
+
+# Artefactos de build / empaquetado
+capacitor/dist/
+*.apk
+*.aab
+
+# Backups y archivos basura
+*.bak
+NUL
+
+# Cachés
+capacitor/android/.gradle/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

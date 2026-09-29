@@ -1,0 +1,41 @@
+{
+  "schema": "ialp.mobile.scene.contract.v1.0",
+  "version": "1.8",
+  "breakpoint_px": 760,
+  "principle": "mobile is a semantic scene player, not a compressed desktop page",
+  "surfaces": [
+    "teacher",
+    "lesson"
+  ],
+  "scene_source": "simulation.steps[*].focus_id",
+  "constraints": {
+    "one_scene_at_a_time": true,
+    "teacher_first_on_step_change": true,
+    "auto_advance": false,
+    "future_navigation_locked": true,
+    "min_touch_target_px": 44,
+    "min_input_font_px": 16,
+    "page_horizontal_overflow": false,
+    "hyphenation": false,
+    "word_break": "normal",
+    "tables": "local horizontal scroll only",
+    "multi_column_layouts": "reflow to one column",
+    "progress_restore_key": "focus_id"
+  },
+  "scene_types": [
+    "CASE",
+    "EXERCISE",
+    "KEY_IDEA",
+    "LESSON_HEADER",
+    "METHOD",
+    "NARRATION",
+    "OBJECTIVES",
+    "PROMPT",
+    "READING",
+    "STRUCTURE",
+    "TITLE",
+    "VISUAL"
+  ],
+  "step_count": 163,
+  "required_step_count": 12
+}

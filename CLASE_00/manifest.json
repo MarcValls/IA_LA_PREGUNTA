@@ -1,0 +1,12 @@
+{
+  "name": "IA. LA PREGUNTA Clase 00 MOBILE-FIRST",
+  "version": "1.8",
+  "mode": "offline_deterministic_mobile_first",
+  "steps": 163,
+  "required_steps": 12,
+  "entrypoints": {
+    "desktop": "frontend/index.html",
+    "capacitor": "capacitor/web/index.html"
+  },
+  "mobile_contract": "MOBILE_SCENE_CONTRACT_v1.0.json"
+}
