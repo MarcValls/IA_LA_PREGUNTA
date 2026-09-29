@@ -13,6 +13,8 @@ node_modules/
 **/capacitor/android/app/src/main/assets/public/
 *.apk
 *.aab
+# APK de release de la clase se versiona explicitamente
+!IA_LA_PREGUNTA_CLASE_00_MOBILE_FIRST_v1.8-debug.apk
 
 # Backups y archivos basura
 *.bak

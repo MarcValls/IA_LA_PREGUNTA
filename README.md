@@ -17,7 +17,7 @@ La primera clase del curso, con tres versiones interactivas más el manual en PD
 
 - `CLASE_00/desktop_fullstack_v1_6/` — escritorio 50/50 con backend Python + Ollama.
 - `CLASE_00/desktop_offline_v1_8/` — escritorio 50/50 sin backend, sin IA, guion pregenerado.
-- `CLASE_00/mobile_first_v1_8/` — interfaz mobile-first con contenedor Capacitor.
+- `CLASE_00/mobile_first_v1_8/` — interfaz mobile-first con contenedor Capacitor y APK de debug incluido.
 - `CLASE_00/Pdf_Versión-papel/` — manual del alumno en PDF.
 
 ## Cómo arrancar

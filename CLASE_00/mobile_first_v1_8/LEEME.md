@@ -14,6 +14,14 @@ Ejecuta `INICIAR_INTERACTIVO.cmd`.
 ## Capacitor
 La misma build está en `capacitor/web/index.html`.
 
+
+## APK
+
+Un APK de debug precompilado está disponible en:
+`IA_LA_PREGUNTA_CLASE_00_MOBILE_FIRST_v1.8-debug.apk`
+
+Para instalarlo en Android, transfiérelo al dispositivo y ábrelo; puede requerir habilitar "Orígenes desconocidos". Para generar una nueva build, usa el contenedor Capacitor con el Android SDK.
+
 ## Estado
 - 163 pasos docentes.
 - 12 puntos obligatorios.
