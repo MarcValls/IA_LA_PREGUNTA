@@ -6,7 +6,11 @@ node_modules/
 .goals/
 
 # Artefactos de build / empaquetado
-capacitor/dist/
+**/capacitor/dist/
+**/capacitor/android/app/build/
+**/capacitor/android/build/
+**/capacitor/android/capacitor-cordova-android-plugins/build/
+**/capacitor/android/app/src/main/assets/public/
 *.apk
 *.aab
 
