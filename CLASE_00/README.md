@@ -8,7 +8,7 @@ Directorio de versiones finales de la Clase 00 para escritorio.
 ├── Pdf_Versión-papel/
 ├── desktop_fullstack_v1_6/
 ├── desktop_offline_v1_8/
-└── mobile_first_v1_8/
+└── mobile_first_v1_1/
 ```
 
 ## Versiones disponibles
@@ -31,7 +31,7 @@ Directorio de versiones finales de la Clase 00 para escritorio.
 
 - Manual del alumno en PDF y modelo de maquetación dinámica.
 
-### `mobile_first_v1_8/`
+### `mobile_first_v1_1/`
 
 - **Modo:** offline con interfaz mobile-first y contenedor Capacitor.
 - **Arranque:** `INICIAR_INTERACTIVO.cmd` (escritorio) o empaquetar `capacitor/web/` con Capacitor.
@@ -42,7 +42,7 @@ Directorio de versiones finales de la Clase 00 para escritorio.
 
 - Si quieres probar la experiencia completa con un profesor de IA local → usa `desktop_fullstack_v1_6/`.
 - Si quieres algo portable, sin dependencias, para distribuir o proyectar → usa `desktop_offline_v1_8/`.
-- Si quieres la experiencia móvil o construir el APK → usa `mobile_first_v1_8/`.
+- Si quieres la experiencia móvil o construir el APK → usa `mobile_first_v1_1/`.
 
 ## Notas
 

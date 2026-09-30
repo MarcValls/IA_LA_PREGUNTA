@@ -3,8 +3,8 @@
   const SIM=JSON.parse(document.getElementById('ialp-offline-sim-data').textContent);
   const $=(s,c=document)=>c.querySelector(s), $$=(s,c=document)=>Array.from(c.querySelectorAll(s));
   const body=document.body, teacherPanel=$('#teacher-panel'), messages=$('#teacher-messages');
-  const OFFLINE_KEY='ialp.clase00.mobilefirst.sim.v1.8';
-  let simState={stepIndex:0,completed:{},maxUnlocked:0,mobilePane:'home'};
+  const OFFLINE_KEY='ialp.clase00.mobilefirst.sim.v1.1';
+  let simState={stepIndex:0,completed:{},maxUnlocked:0,mobilePane:'teacher'};
   try{simState=Object.assign(simState,JSON.parse(localStorage.getItem(OFFLINE_KEY)||'{}'));}catch{}
   if(!Number.isInteger(simState.stepIndex)||simState.stepIndex<0||simState.stepIndex>=SIM.steps.length)simState.stepIndex=0;
   if(!simState.completed||typeof simState.completed!=='object')simState.completed={};
@@ -38,16 +38,16 @@
   const tools=$('#teacher-tools');
   const progress=document.createElement('div');progress.id='offline-sim-progress';progress.innerHTML='<div class="sim-progress-row"><strong id="offline-step-label">Paso 1</strong><span id="offline-section-label">Introducción</span></div><div class="sim-progress-track"><i id="offline-progress-fill"></i></div>';
   tools.insertAdjacentElement('afterend',progress);
-  const gate=document.createElement('div');gate.id='offline-sim-gate';gate.hidden=true;gate.innerHTML='<span id="offline-gate-text"></span>';
+  const gate=document.createElement('div');gate.id='offline-sim-gate';gate.hidden=true;gate.innerHTML='<span id="offline-gate-text"></span><button id="offline-gate-confirm" type="button">Marcar completado</button>';
   progress.insertAdjacentElement('afterend',gate);
-  const gateText=$('#offline-gate-text');
+  const gateText=$('#offline-gate-text'),gateConfirm=$('#offline-gate-confirm');
 
   // Mobile two-surface switch: Maestro <-> Lección.
   const mobileSwitch=document.createElement('div');mobileSwitch.id='mobile-sim-switch';mobileSwitch.innerHTML='<button type="button" data-pane="teacher">Maestro</button><button type="button" data-pane="lesson">Lección</button><span class="mobile-step" id="mobile-step-label">1/'+SIM.steps.length+'</span>';
   $('#ialp-toolbar').insertAdjacentElement('afterend',mobileSwitch);
   const returnTeacher=document.createElement('button');returnTeacher.id='mobile-return-teacher';returnTeacher.type='button';returnTeacher.textContent='← Volver al Maestro';$('main').appendChild(returnTeacher);
   function isMobile(){return window.matchMedia('(max-width:760px)').matches;}
-  function setMobilePane(pane){pane=pane==='lesson'?'lesson':pane==='teacher'?'teacher':'home';simState.mobilePane=pane;body.classList.toggle('mobile-pane-teacher',pane==='teacher');body.classList.toggle('mobile-pane-lesson',pane==='lesson');$$('#mobile-sim-switch button').forEach(b=>b.classList.toggle('active',b.dataset.pane===pane));persist();if(window.IALPMobileFirst){window.IALPMobileFirst.setPane(pane);}else if(pane==='lesson')requestAnimationFrame(()=>focusCurrent({scroll:true}));}
+  function setMobilePane(pane){simState.mobilePane=pane;body.classList.toggle('mobile-pane-teacher',pane==='teacher');body.classList.toggle('mobile-pane-lesson',pane==='lesson');$$('#mobile-sim-switch button').forEach(b=>b.classList.toggle('active',b.dataset.pane===pane));persist();if(window.IALPMobileFirst){window.IALPMobileFirst.setPane(pane);}else if(pane==='lesson')requestAnimationFrame(()=>focusCurrent({scroll:true}));}
   $$('#mobile-sim-switch button').forEach(b=>b.addEventListener('click',()=>setMobilePane(b.dataset.pane)));
   returnTeacher.addEventListener('click',()=>setMobilePane('teacher'));
   setMobilePane(isMobile()?simState.mobilePane:'teacher');
@@ -79,7 +79,7 @@
     const wrap=document.createElement('div');wrap.className='teacher-message '+role;wrap.dataset.simStep=String(step?.index||'');
     if(meta&&step){const m=document.createElement('div');m.className='offline-sim-message-meta';m.textContent=`PASO ${step.index} · ${step.section_title}`;wrap.append(m);}
     const p=document.createElement('p');rich(p,text);wrap.append(p);
-    if(role==='assistant'&&tools&&step){const bar=document.createElement('div');bar.className='offline-sim-tools';const look=document.createElement('button');look.type='button';look.textContent='Mira aquí →';look.addEventListener('click',()=>{if(window.IALPMobileFirst&&isMobile()){window.IALPMobileFirst.setPane('lesson');}else if(isMobile()){setMobilePane('lesson');}focusCurrent({scroll:true,source:look});});bar.append(look);if(step.gate){const hint=document.createElement('button');hint.type='button';hint.textContent='Pista';hint.addEventListener('click',()=>addMessage('assistant',step.hint||'Relee la consigna y completa solo lo que puedas justificar.',step,{tools:false,meta:false}));bar.append(hint);}const n=document.createElement('button');n.type='button';n.className='sim-next-inline';n.textContent='Siguiente';n.addEventListener('click',advance);bar.append(n);wrap.append(bar);}
+    if(role==='assistant'&&tools&&step){const bar=document.createElement('div');bar.className='offline-sim-tools';const look=document.createElement('button');look.type='button';look.textContent='Mira aquí →';look.addEventListener('click',()=>{if(isMobile())setMobilePane('lesson');focusCurrent({scroll:true,source:look});});bar.append(look);if(step.gate){const hint=document.createElement('button');hint.type='button';hint.textContent='Pista';hint.addEventListener('click',()=>addMessage('assistant',step.hint||'Relee la consigna y completa solo lo que puedas justificar.',step,{tools:false,meta:false}));bar.append(hint);}const n=document.createElement('button');n.type='button';n.className='sim-next-inline';n.textContent='Siguiente';n.addEventListener('click',advance);bar.append(n);wrap.append(bar);}
     messages.append(wrap);messages.scrollTop=messages.scrollHeight;return wrap;
   }
   function ensureMessageForStep(step,{repeat=false}={}){
@@ -98,17 +98,21 @@
     return{ready:missing.length===0,detail:missing.length?`${missing.length} requisito(s) pendientes`:'Actividad completa'};
   }
   function gatePassed(step){if(!step.gate)return true;if(step.gate.mode==='auto_correct'||step.gate.mode==='auto_checklist')return rawGateStatus(step).ready;return !!simState.completed[step.index];}
-  function commitIfReady(step){if(!step.gate)return;const raw=rawGateStatus(step);if(raw.ready){simState.completed[step.index]=true;persist();}}
+  function commitIfAuto(step){if(!step.gate)return;const raw=rawGateStatus(step);if((step.gate.mode==='auto_correct'||step.gate.mode==='auto_checklist')&&raw.ready){simState.completed[step.index]=true;persist();}}
   function updateGate(){
-    const step=currentStep();commitIfReady(step);const raw=rawGateStatus(step);const passed=gatePassed(step);
-    gate.hidden=true;gate.classList.remove('ok');gateText.textContent=passed?'Punto obligatorio superado. Puedes continuar.':(step.gate?`${step.gate.description} ${raw.detail}.`:'');
+    const step=currentStep();commitIfAuto(step);const raw=rawGateStatus(step);const passed=gatePassed(step);
+    if(!step.gate){gate.hidden=true;nextBtn.disabled=false;if(window.IALPMobileFirst)window.IALPMobileFirst.gate(step,{passed:true,text:''});return;}
+    gate.hidden=false;gate.classList.toggle('ok',passed);gateText.textContent=passed?'Punto obligatorio superado. Puedes continuar.':`${step.gate.description} ${raw.detail}.`;
+    gateConfirm.hidden=step.gate.mode==='auto_correct'||step.gate.mode==='auto_checklist'||passed;
+    gateConfirm.disabled=!raw.ready;
     nextBtn.disabled=!passed;if(window.IALPMobileFirst)window.IALPMobileFirst.gate(step,{passed,text:gateText.textContent});
     $$('.sim-next-inline',messages).forEach(b=>{const msg=b.closest('[data-sim-step]');if(Number(msg?.dataset.simStep)===step.index)b.disabled=!passed;});
   }
+  gateConfirm.addEventListener('click',()=>{const step=currentStep(),raw=rawGateStatus(step);if(!raw.ready){addMessage('assistant','Aún falta completar parte de este punto. Revisa la actividad de la derecha antes de confirmarlo.',step,{tools:false,meta:false});focusCurrent({scroll:true});return;}simState.completed[step.index]=true;persist();updateGate();addMessage('assistant','Punto registrado como **superado**. Ahora sí puedes pulsar **Siguiente**.',step,{tools:false,meta:false});});
 
   function markLocks(){
     const cur=simState.stepIndex;$$('[data-focus-id]').forEach(el=>{const st=stepByFocus(el.dataset.focusId);if(!st)return;const idx=st.index-1;el.classList.toggle('sim-future-locked',idx>simState.maxUnlocked);el.classList.toggle('sim-visited',idx<cur);});
-    const nav=$('#interactive-nav');if(nav){nav.innerHTML='';const sections=[...new Map(SIM.steps.map(s=>[s.section_id,s.section_title])).entries()];for(const [sid,title] of sections){const first=SIM.steps.findIndex(s=>s.section_id===sid);const sectionSteps=SIM.steps.filter(s=>s.section_id===sid);const heading=document.createElement('div');heading.className='sim-nav-section';const headingButton=document.createElement('button');headingButton.type='button';headingButton.className='sim-nav-section-title';headingButton.textContent=title;const sectionLocked=first>simState.maxUnlocked;if(sectionLocked){headingButton.classList.add('sim-locked');headingButton.append(' 🔒');}headingButton.addEventListener('click',()=>{if(sectionLocked){toastOffline('Esta lección todavía está bloqueada. Continúa con el Maestro.');return;}$('#ialp-index').hidden=true;goTo(first,{narrate:true,allowBackward:true});});heading.append(headingButton);const list=document.createElement('div');list.className='sim-nav-steps';for(const step of sectionSteps){const index=step.index-1;const locked=index>simState.maxUnlocked;const item=document.createElement('button');item.type='button';item.className='sim-nav-step';item.textContent=`${step.index}. ${step.focus_label||step.kind||'Ejercicio'}`;if(index===simState.stepIndex)item.classList.add('sim-nav-current');if(index<simState.stepIndex)item.classList.add('sim-nav-visited');if(locked){item.classList.add('sim-locked');item.append(' 🔒');}item.addEventListener('click',()=>{if(locked){toastOffline('Este ejercicio todavía está bloqueado. Continúa con el Maestro.');return;}$('#ialp-index').hidden=true;goTo(index,{narrate:true,allowBackward:true});});list.append(item);}heading.append(list);nav.append(heading);}}}
+    const nav=$('#interactive-nav');if(nav){nav.innerHTML='';const sections=[...new Map(SIM.steps.map(s=>[s.section_id,s.section_title])).entries()];for(const [sid,title] of sections){const first=SIM.steps.findIndex(s=>s.section_id===sid);const a=document.createElement('a');a.href='#'+sid;a.textContent=title;const locked=first>simState.maxUnlocked;if(locked){a.classList.add('sim-locked');const m=document.createElement('span');m.className='sim-lock-mark';m.textContent='🔒';a.append(m);}a.addEventListener('click',e=>{e.preventDefault();if(locked){toastOffline('Esta parte todavía no está desbloqueada. Continúa con el Maestro.');return;}$('#ialp-index').hidden=true;goTo(first,{narrate:true,allowBackward:true});});nav.append(a);}}
   }
   function toastOffline(text){const t=$('#toast');if(!t)return;t.textContent=text;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),1800);}
 
@@ -143,6 +147,6 @@
   // Start from the dedicated simulation state, not from old v1.6 currentFocus.
   simState.maxUnlocked=Math.max(simState.maxUnlocked,simState.stepIndex);
   markLocks();updateProgress();updateGate();focusCurrent({scroll:false});ensureMessageForStep(currentStep());
-  if(isMobile())setMobilePane(simState.mobilePane||'home');
+  if(isMobile())setMobilePane(simState.mobilePane||'teacher');
   window.addEventListener('resize',()=>{if(!isMobile()){body.classList.remove('mobile-pane-teacher','mobile-pane-lesson');}else if(!body.classList.contains('mobile-pane-teacher')&&!body.classList.contains('mobile-pane-lesson'))setMobilePane(simState.mobilePane||'teacher');});
 })();
