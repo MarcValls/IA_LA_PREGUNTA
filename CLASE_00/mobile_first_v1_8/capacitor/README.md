@@ -1,20 +1,25 @@
-# Capacitor — OFFLINE SIMULATION v1.7
+# Capacitor — MOBILE-FIRST v1.8
 
-Esta carpeta empaqueta la misma clase pregenerada incluida en `frontend/index.html`.
+Empaqueta `frontend/index.html` como aplicación Android.
 
-## Propiedad clave
+## Requisitos
 
-El modo móvil de esta entrega **no necesita Ollama ni backend** para impartir la lección. El guion del Maestro, los focos, las pistas y los gates están embebidos en `web/index.html`.
+- Node.js 22+
+- Android SDK
+- JDK 21
 
-## Flujo
+## Flujo de build
 
 ```powershell
 npm install
-npm run cap:add:android
-npm run cap:sync:android
-npx cap open android
+npm run mobile:prepare   # copia frontend/ -> capacitor/web/
+npm run cap:sync:android # sincroniza assets con Android
+.\scripts\build-debug.ps1  # gradlew assembleDebug
 ```
 
-En móvil la interfaz usa dos superficies `Maestro` / `Lección`. Solo se muestra el fragmento semántico actual, evitando dejar una lección física a medias por el alto de pantalla.
+El APK resultante se genera en `android/app/build/outputs/apk/debug/app-debug.apk`.
 
-`STATUS.json` distingue entre `web READY` y el proyecto Android todavía no materializado.
+## Notas
+
+- `capacitor/web/` se regenera automáticamente; no editar a mano.
+- La app funciona offline: el guion del Maestro y los gates están embebidos en el HTML.

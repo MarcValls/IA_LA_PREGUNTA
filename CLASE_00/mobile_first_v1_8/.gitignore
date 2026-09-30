@@ -5,23 +5,26 @@ node_modules/
 # Estado del agente Pi
 .goals/
 
-# Artefactos de build / empaquetado
+# Artefactos derivados de Capacitor
+**/capacitor/web/
 **/capacitor/dist/
 **/capacitor/android/app/build/
 **/capacitor/android/build/
 **/capacitor/android/capacitor-cordova-android-plugins/build/
 **/capacitor/android/app/src/main/assets/public/
+**/capacitor/android/app/src/main/assets/capacitor.config.json
+**/capacitor/android/app/src/main/assets/capacitor.plugins.json
+**/capacitor/android/app/src/main/res/xml/config.xml
+**/.gradle/
+
+# APK / AAB generales (se permite el de release de esta clase)
 *.apk
 *.aab
-# APK de release de la clase se versiona explicitamente
 !IA_LA_PREGUNTA_CLASE_00_MOBILE_FIRST_v1.8-debug.apk
 
 # Backups y archivos basura
 *.bak
 NUL
-
-# Cachés
-**/.gradle/
 
 # Sistema operativo
 .DS_Store

@@ -1,31 +1,44 @@
 # IA. LA PREGUNTA — Clase 00 · MOBILE-FIRST v1.8
 
-Esta versión parte de OFFLINE_SIM v1.7 y materializa una interfaz móvil propia.
+Versión móvil offline determinista de la Clase 00.
 
-## Escritorio
-Mantiene el aula 50/50: Maestro a la izquierda, lección a la derecha.
+## Contenido
 
-## Móvil
-No comprime el escritorio. Usa dos superficies: **Maestro** y **Lección**. La lección muestra únicamente la escena semántica (`focus_id`) del paso actual. El nodo real se mueve a la escena, por lo que ejercicios y gates conservan estado.
+- `frontend/index.html` — aplicación principal (HTML autocontenido, offline).
+- `frontend/assets/titulo.png` — imagen de cabecera.
+- `capacitor/` — contenedor Android para reconstruir el APK.
+- `IA_LA_PREGUNTA_CLASE_00_MOBILE_FIRST_v1.8-debug.apk` — APK de debug precompilado.
+- `manifest.json` — metadatos de la entrega.
+- `MOBILE_SCENE_CONTRACT_v1.0.json` — contrato de escenas móviles.
 
-## Inicio Windows
-Ejecuta `INICIAR_INTERACTIVO.cmd`.
+## Cómo usar
 
-## Capacitor
-La misma build está en `capacitor/web/index.html`.
+### Escritorio / navegador
 
+Abre `frontend/index.html` directamente en un navegador. No requiere servidor ni IA.
 
-## APK
+### Android (APK existente)
 
-Un APK de debug precompilado está disponible en:
-`IA_LA_PREGUNTA_CLASE_00_MOBILE_FIRST_v1.8-debug.apk`
+Transfiere `IA_LA_PREGUNTA_CLASE_00_MOBILE_FIRST_v1.8-debug.apk` al dispositivo e instálalo. Puede ser necesario habilitar "Orígenes desconocidos".
 
-Para instalarlo en Android, transfiérelo al dispositivo y ábrelo; puede requerir habilitar "Orígenes desconocidos". Para generar una nueva build, usa el contenedor Capacitor con el Android SDK.
+### Reconstruir el APK
+
+Desde `capacitor/`:
+
+```powershell
+npm install
+npm run cap:sync:android
+npx cap open android
+# O directamente:
+.\scripts\build-debug.ps1
+```
+
+Requiere Node.js 22+, Android SDK y JDK 21.
 
 ## Estado
+
 - 163 pasos docentes.
 - 12 puntos obligatorios.
 - 0 autoavance.
-- OFFLINE: no necesita IA.
-- Mobile-first: implementado.
-- APK: requiere Android SDK para compilar.
+- Sin backend, sin Ollama.
+- Mobile-first implementado.

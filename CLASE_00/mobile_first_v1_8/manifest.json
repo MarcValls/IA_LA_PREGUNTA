@@ -5,7 +5,7 @@
   "steps": 163,
   "required_steps": 12,
   "entrypoints": {
-    "desktop": "frontend/index.html",
+    "browser": "frontend/index.html",
     "capacitor": "capacitor/web/index.html"
   },
   "mobile_contract": "MOBILE_SCENE_CONTRACT_v1.0.json"
