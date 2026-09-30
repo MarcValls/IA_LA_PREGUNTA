@@ -1,4 +1,4 @@
-# Capacitor — MOBILE-FIRST v1.8
+# Capacitor — MOBILE-FIRST v1.1
 
 Empaqueta `frontend/index.html` como aplicación Android.
 

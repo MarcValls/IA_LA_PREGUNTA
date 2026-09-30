@@ -33,7 +33,7 @@ const QA_SCRIPT = `
       if (!ctl) return;
       const step = ctl.currentStep();
       if (!step || !step.gate) return;
-      const key = 'ialp.clase00.mobilefirst.sim.v1.8';
+      const key = 'ialp.clase00.mobilefirst.sim.v1.1';
       let st = JSON.parse(localStorage.getItem(key) || '{}');
       st.completed = st.completed || {};
       st.completed[step.index] = true;
@@ -119,7 +119,7 @@ const QA_SCRIPT = `
     // Desbloquear todo
     try {
       const SIM = JSON.parse(document.getElementById('ialp-offline-sim-data').textContent);
-      const key = 'ialp.clase00.mobilefirst.sim.v1.8';
+      const key = 'ialp.clase00.mobilefirst.sim.v1.1';
       let st = JSON.parse(localStorage.getItem(key) || '{}');
       st.stepIndex = 0;
       st.maxUnlocked = SIM.steps.length;

@@ -1,6 +1,6 @@
 {
   "schema": "ialp.mobile.scene.contract.v1.0",
-  "version": "1.8",
+  "version": "1.1",
   "breakpoint_px": 760,
   "principle": "mobile is a semantic scene player, not a compressed desktop page",
   "surfaces": [

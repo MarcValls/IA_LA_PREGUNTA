@@ -1,0 +1,2075 @@
+{
+  "schema": "ialp.offline.sim.v1.1",
+  "course": "IA. LA PREGUNTA",
+  "class": "Clase 00 — Antes de aprender a responder",
+  "mode": "deterministic_manual_advance",
+  "step_count": 163,
+  "required_step_count": 12,
+  "rules": {
+    "auto_advance": false,
+    "future_navigation_locked": true,
+    "previous_visited_allowed": true,
+    "required_steps_block_next": true,
+    "intro_is_teacher_narrated": true
+  },
+  "steps": [
+    {
+      "index": 1,
+      "focus_id": "unidad-0-f01",
+      "section_id": "unidad-0",
+      "section_title": "Introducción — Antes de aprender a responder",
+      "focus_label": "Clase 00 — Antes de aprender a responder",
+      "kind": "intro_title",
+      "required": false,
+      "message": "Bienvenido a la Clase 00. Antes de aprender a responder, vamos a estudiar qué ocurre entre lo que alguien dice y lo que realmente necesita que hagamos. **Mira aquí**: este título marca el punto de partida. No avances solo por el documento; yo iré guiando la clase. Cuando estés listo, pulsa **Siguiente**.",
+      "source_excerpt": "Clase 00 — Antes de aprender a responder"
+    },
+    {
+      "index": 2,
+      "focus_id": "unidad-0-f02",
+      "section_id": "unidad-0",
+      "section_title": "Introducción — Antes de aprender a responder",
+      "focus_label": "PREGUNTA DE ENTRADA ¿Puedes mirar esto? Parece simple. La clase empieza demostrando que no lo es.",
+      "kind": "opening",
+      "required": false,
+      "message": "Empezamos con la pregunta de entrada: **«¿Puedes mirar esto?»**. **Mira aquí**. No la respondas. Observa únicamente que una frase aparentemente sencilla todavía no determina qué acción debemos realizar. Cuando hayas hecho esa pausa, pulsa **Siguiente**.",
+      "source_excerpt": "PREGUNTA DE ENTRADA ¿Puedes mirar esto? Parece simple. La clase empieza demostrando que no lo es."
+    },
+    {
+      "index": 3,
+      "focus_id": "unidad-0-f03",
+      "section_id": "unidad-0",
+      "section_title": "Introducción — Antes de aprender a responder",
+      "focus_label": "ANTES DE EMPEZAR Qué vas a aprender Esta clase no te enseña todavía a responder mejor. Te enseña a detectar…",
+      "kind": "objectives",
+      "required": false,
+      "message": "Antes de entrar en la primera lección, fijamos qué vas a aprender. **Mira aquí**: distinguir frase y acción, reconocer el papel del contexto, separar interpretación de invención y observar una petición antes de resolverla. Léelos como objetivos de la clase. Después pulsa **Siguiente**.",
+      "source_excerpt": "ANTES DE EMPEZAR Qué vas a aprender Esta clase no te enseña todavía a responder mejor. Te enseña a detectar el trabajo que existe antes de responder: reconstruir qué se está pidiendo, con qué criterio y hacia qué resultado. 1 Distinguir una frase de la acción que intenta provocar. 2 Reconocer cuándo el contexto cambia el significado operativo. 3 Diferenciar interpretación de invención. 4 Observar una petición antes de intentar resolverla."
+    },
+    {
+      "index": 4,
+      "focus_id": "unidad-0-f04",
+      "section_id": "unidad-0",
+      "section_title": "Introducción — Antes de aprender a responder",
+      "focus_label": "Cómo usar este manual. Lee primero el texto de la lección. Después realiza el ejemplo o el ejercicio sin co…",
+      "kind": "method",
+      "required": false,
+      "message": "Esta es nuestra regla de trabajo. **Mira aquí**. Primero lees y haces el intento; después consultas ejemplos, referencias o pistas. El objetivo no es responder deprisa, sino poder justificar cómo has entendido la petición. Pulsa **Siguiente** para entrar en la Lección 1.",
+      "source_excerpt": "Cómo usar este manual. Lee primero el texto de la lección. Después realiza el ejemplo o el ejercicio sin consultar la respuesta orientativa. Los laboratorios con IA no buscan “ganar” a una herramienta: buscan observar cómo distintas herramientas interpretan la misma expresión."
+    },
+    {
+      "index": 5,
+      "focus_id": "unidad-1-f01",
+      "section_id": "unidad-1",
+      "section_title": "Lección 1 — Responder no es comprender",
+      "focus_label": "FOCO",
+      "kind": "lesson",
+      "required": false,
+      "message": "Entramos en **Lección 1 — Responder no es comprender**. **Mira aquí**. No intentes abarcar toda la página: iremos fragmento por fragmento y el documento avanzará conmigo. Cuando estés situado, pulsa **Siguiente**.",
+      "source_excerpt": "01 FOCO Lección 1 — Responder no es comprender Interpretación antes que respuesta 1 2 3 4 5 6 7 8"
+    },
+    {
+      "index": 6,
+      "focus_id": "unidad-1-f02",
+      "section_id": "unidad-1",
+      "section_title": "Lección 1 — Responder no es comprender",
+      "focus_label": "MAPA VISUAL",
+      "kind": "visual",
+      "required": false,
+      "message": "**Mira aquí**. Este esquema visual organiza la idea del bloque. Observa primero las relaciones y la dirección del recorrido; todavía no lo conviertas en una regla rígida. Cuando puedas explicar qué conecta con qué, pulsa **Siguiente**.",
+      "source_excerpt": "MAPA VISUAL Del salto directo a la comprensión"
+    },
+    {
+      "index": 7,
+      "focus_id": "unidad-1-f03",
+      "section_id": "unidad-1",
+      "section_title": "Lección 1 — Responder no es comprender",
+      "focus_label": "Voy a empezar esta clase con una pregunta muy sencilla. ¿Puedes mirar esto? Nada más. ¿Puedes mirar esto? S…",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Voy a empezar esta clase con una pregunta muy sencilla. ¿Puedes mirar esto? Nada más. ¿Puedes mirar esto? Supongamos que alguien te dice esa frase. ¿Qué haces?” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Voy a empezar esta clase con una pregunta muy sencilla. ¿Puedes mirar esto? Nada más. ¿Puedes mirar esto? Supongamos que alguien te dice esa frase. ¿Qué haces?"
+    },
+    {
+      "index": 8,
+      "focus_id": "unidad-1-f04",
+      "section_id": "unidad-1",
+      "section_title": "Lección 1 — Responder no es comprender",
+      "focus_label": "UNA FRASE · OCHO OPERACIONES POSIBLES",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “UNA FRASE · OCHO OPERACIONES POSIBLES ¿Lo lees? ¿Buscas un error? ¿Compruebas si funciona? ¿Das tu opinión? ¿Lo corriges? ¿Lo comparas con otra versión? ¿Compruebas si está terminado? ¿Intentas averiguar qué ha cambiado?” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "UNA FRASE · OCHO OPERACIONES POSIBLES ¿Lo lees? ¿Buscas un error? ¿Compruebas si funciona? ¿Das tu opinión? ¿Lo corriges? ¿Lo comparas con otra versión? ¿Compruebas si está terminado? ¿Intentas averiguar qué ha cambiado?"
+    },
+    {
+      "index": 9,
+      "focus_id": "unidad-1-f05",
+      "section_id": "unidad-1",
+      "section_title": "Lección 1 — Responder no es comprender",
+      "focus_label": "LO QUE SÍ SABES",
+      "kind": "structured",
+      "required": false,
+      "message": "**Mira aquí**. Este bloque separa piezas que en una lectura rápida podrían mezclarse: LO QUE SÍ SABES Has entendido todas las palabras. No hay ninguna palabra especialmente complicada. Sabes qué significa «puedes». Sabes qué significa «mirar». Sabes qué significa «esto», al menos si tienes delante el objeto al que se refiere. Recorre cada parte en orden y pulsa **Siguiente** cuando veas la relación.",
+      "source_excerpt": "LO QUE SÍ SABES Has entendido todas las palabras. No hay ninguna palabra especialmente complicada. Sabes qué significa «puedes». Sabes qué significa «mirar». Sabes qué significa «esto», al menos si tienes delante el objeto al que se refiere."
+    },
+    {
+      "index": 10,
+      "focus_id": "unidad-1-f06",
+      "section_id": "unidad-1",
+      "section_title": "Lección 1 — Responder no es comprender",
+      "focus_label": "LO QUE TODAVÍA NO SABES",
+      "kind": "structured",
+      "required": false,
+      "message": "**Mira aquí**. Este bloque separa piezas que en una lectura rápida podrían mezclarse: LO QUE TODAVÍA NO SABES Y, sin embargo, todavía no sabes necesariamente qué tienes que hacer. Ese pequeño problema es el punto de partida de todo este curso. Porque durante mucho tiempo hemos tratado las preguntas como si funcionaran de una manera muy sencilla. Recorre cada parte en orden y pulsa **Siguiente** cuando veas la relación.",
+      "source_excerpt": "LO QUE TODAVÍA NO SABES Y, sin embargo, todavía no sabes necesariamente qué tienes que hacer. Ese pequeño problema es el punto de partida de todo este curso. Porque durante mucho tiempo hemos tratado las preguntas como si funcionaran de una manera muy sencilla."
+    },
+    {
+      "index": 11,
+      "focus_id": "unidad-1-f07",
+      "section_id": "unidad-1",
+      "section_title": "Lección 1 — Responder no es comprender",
+      "focus_label": "1 · PETICIÓN",
+      "kind": "case",
+      "required": false,
+      "message": "Vamos a mirar un caso concreto. **Mira aquí**: 1 · PETICIÓN Imagina que alguien te enseña un documento y pregunta: ¿Está bien esto? No busques todavía una definición general; identifica qué cambió entre la expresión y la acción esperada. Después pulsa **Siguiente**.",
+      "source_excerpt": "1 · PETICIÓN Imagina que alguien te enseña un documento y pregunta: ¿Está bien esto?"
+    },
+    {
+      "index": 12,
+      "focus_id": "unidad-1-f08",
+      "section_id": "unidad-1",
+      "section_title": "Lección 1 — Responder no es comprender",
+      "focus_label": "2 · LECTURA",
+      "kind": "case",
+      "required": false,
+      "message": "Vamos a mirar un caso concreto. **Mira aquí**: 2 · LECTURA Tú lo lees. No encuentras ninguna falta ortográfica. No busques todavía una definición general; identifica qué cambió entre la expresión y la acción esperada. Después pulsa **Siguiente**.",
+      "source_excerpt": "2 · LECTURA Tú lo lees. No encuentras ninguna falta ortográfica."
+    },
+    {
+      "index": 13,
+      "focus_id": "unidad-1-f09",
+      "section_id": "unidad-1",
+      "section_title": "Lección 1 — Responder no es comprender",
+      "focus_label": "3 · RESPUESTA",
+      "kind": "case",
+      "required": false,
+      "message": "Vamos a mirar un caso concreto. **Mira aquí**: 3 · RESPUESTA Y respondes: Sí, está bien. La respuesta puede ser completamente correcta desde un punto de vista ortográfico. No busques todavía una definición general; identifica qué cambió entre la expresión y la acción esperada. Después pulsa **Siguiente**.",
+      "source_excerpt": "3 · RESPUESTA Y respondes: Sí, está bien. La respuesta puede ser completamente correcta desde un punto de vista ortográfico."
+    },
+    {
+      "index": 14,
+      "focus_id": "unidad-1-f10",
+      "section_id": "unidad-1",
+      "section_title": "Lección 1 — Responder no es comprender",
+      "focus_label": "4 · DESCUBRIMIENTO",
+      "kind": "case",
+      "required": false,
+      "message": "Vamos a mirar un caso concreto. **Mira aquí**: 4 · DESCUBRIMIENTO Pero ahora descubrimos que la persona quería saber si el documento estaba preparado para ser enviado a un cliente. De repente tenemos un problema. No busques todavía una definición general; identifica qué cambió entre la expresión y la acción esperada. Después pulsa **Siguiente**.",
+      "source_excerpt": "4 · DESCUBRIMIENTO Pero ahora descubrimos que la persona quería saber si el documento estaba preparado para ser enviado a un cliente. De repente tenemos un problema."
+    },
+    {
+      "index": 15,
+      "focus_id": "unidad-1-f11",
+      "section_id": "unidad-1",
+      "section_title": "Lección 1 — Responder no es comprender",
+      "focus_label": "5 · FALLO REAL",
+      "kind": "case",
+      "required": false,
+      "message": "Vamos a mirar un caso concreto. **Mira aquí**: 5 · FALLO REAL Tú has respondido correctamente. Pero no has resuelto lo que la persona necesitaba saber. La frase era la misma. No busques todavía una definición general; identifica qué cambió entre la expresión y la acción esperada. Después pulsa **Siguiente**.",
+      "source_excerpt": "5 · FALLO REAL Tú has respondido correctamente. Pero no has resuelto lo que la persona necesitaba saber. La frase era la misma."
+    },
+    {
+      "index": 16,
+      "focus_id": "unidad-1-f12",
+      "section_id": "unidad-1",
+      "section_title": "Lección 1 — Responder no es comprender",
+      "focus_label": "6 · AMBIGÜEDAD",
+      "kind": "case",
+      "required": false,
+      "message": "Vamos a mirar un caso concreto. **Mira aquí**: 6 · AMBIGÜEDAD «¿Está bien esto?» Pero «estar bien» podía significar muchas cosas. Podía significar: No busques todavía una definición general; identifica qué cambió entre la expresión y la acción esperada. Después pulsa **Siguiente**.",
+      "source_excerpt": "6 · AMBIGÜEDAD «¿Está bien esto?» Pero «estar bien» podía significar muchas cosas. Podía significar:"
+    },
+    {
+      "index": 17,
+      "focus_id": "unidad-1-f13",
+      "section_id": "unidad-1",
+      "section_title": "Lección 1 — Responder no es comprender",
+      "focus_label": "¿QUÉ PODRÍA SIGNIFICAR «ESTÁ BIEN»?",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “¿QUÉ PODRÍA SIGNIFICAR «ESTÁ BIEN»? ¿Está bien escrito? ¿Es técnicamente correcto? ¿Funciona? ¿Cumple los requisitos? ¿Es legal? ¿Está terminado? ¿Se puede publicar? ¿Puedo entregarlo? ¿Es suficientemente bueno?” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "¿QUÉ PODRÍA SIGNIFICAR «ESTÁ BIEN»? ¿Está bien escrito? ¿Es técnicamente correcto? ¿Funciona? ¿Cumple los requisitos? ¿Es legal? ¿Está terminado? ¿Se puede publicar? ¿Puedo entregarlo? ¿Es suficientemente bueno?"
+    },
+    {
+      "index": 18,
+      "focus_id": "unidad-1-f14",
+      "section_id": "unidad-1",
+      "section_title": "Lección 1 — Responder no es comprender",
+      "focus_label": "Y aquí aparece una de las ideas que vamos a utilizar durante todo el curso.",
+      "kind": "narrative",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Y aquí aparece una de las ideas que vamos a utilizar durante todo el curso.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Y aquí aparece una de las ideas que vamos a utilizar durante todo el curso."
+    },
+    {
+      "index": 19,
+      "focus_id": "unidad-1-f15",
+      "section_id": "unidad-1",
+      "section_title": "Lección 1 — Responder no es comprender",
+      "focus_label": "Puedes dar una respuesta correcta a la pregunta equivocada.",
+      "kind": "narrative",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Puedes dar una respuesta correcta a la pregunta equivocada.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Puedes dar una respuesta correcta a la pregunta equivocada."
+    },
+    {
+      "index": 20,
+      "focus_id": "unidad-1-f16",
+      "section_id": "unidad-1",
+      "section_title": "Lección 1 — Responder no es comprender",
+      "focus_label": "IDEA CLAVE",
+      "kind": "key",
+      "required": false,
+      "message": "Detente en esta idea. **Mira aquí**: IDEA CLAVE La calidad de una respuesta no compensa una interpretación equivocada de la petición. Esta pieza es una conclusión provisional que utilizaremos después. Cuando la puedas repetir con tus propias palabras, pulsa **Siguiente**.",
+      "source_excerpt": "IDEA CLAVE La calidad de una respuesta no compensa una interpretación equivocada de la petición."
+    },
+    {
+      "index": 21,
+      "focus_id": "unidad-1-f17",
+      "section_id": "unidad-1",
+      "section_title": "Lección 1 — Responder no es comprender",
+      "focus_label": "DÓNDE PUEDE HABER OCURRIDO EL ERROR",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “DÓNDE PUEDE HABER OCURRIDO EL ERROR REPETICIÓN Vamos a repetirlo porque es mucho más importante de lo que parece. Puedes dar una respuesta correcta a la pregunta equivocada. NO NECESARIAMENTE EN LA RESPUESTA El problema no está necesariamente en la respuesta. PUEDE HABER OCURRIDO ANTES El problema puede haber ocurrido antes.…” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "DÓNDE PUEDE HABER OCURRIDO EL ERROR REPETICIÓN Vamos a repetirlo porque es mucho más importante de lo que parece. Puedes dar una respuesta correcta a la pregunta equivocada. NO NECESARIAMENTE EN LA RESPUESTA El problema no está necesariamente en la respuesta. PUEDE HABER OCURRIDO ANTES El problema puede haber ocurrido antes. Puede haber ocurrido cuando decidiste qué significaba aquello que te estaban preguntando. POR ESO EL CURSO EMPIEZA ANTES Por eso este curso no empieza estudiando respuestas. Empieza antes. Empieza estudiando la pregunta. Y todavía más concretamente, empieza estudiando qué ocurre antes de que decidamos responder."
+    },
+    {
+      "index": 22,
+      "focus_id": "unidad-1-f18",
+      "section_id": "unidad-1",
+      "section_title": "Lección 1 — Responder no es comprender",
+      "focus_label": "PRUEBA RÁPIDA",
+      "kind": "exercise",
+      "required": true,
+      "message": "Ahora te toca trabajar. **Mira aquí**: PRUEBA RÁPIDA Alguien te envía un archivo y escribe: “¿Está bien?” Escribe tres criterios distintos bajo los que podrías evaluar el archivo. Marca cuál de ellos aparece realmente en la frase. Explica qué información falta antes de poder validar el resultado. Desarrolla tu respuesta Sin responder Pista IA Revisar con IA Este es un **punto obligatorio**. Completa la actividad indicada; el botón **Siguiente** permanecerá bloqueado hasta que el punto quede registrado como superado.",
+      "source_excerpt": "PRUEBA RÁPIDA Alguien te envía un archivo y escribe: “¿Está bien?” Escribe tres criterios distintos bajo los que podrías evaluar el archivo. Marca cuál de ellos aparece realmente en la frase. Explica qué información falta antes de poder validar el resultado. Desarrolla tu respuesta Sin responder Pista IA Revisar con IA",
+      "gate": {
+        "mode": "manual",
+        "description": "Responde todos los campos de este ejercicio y confirma que lo has revisado.",
+        "text_keys": [
+          "answer-001",
+          "resp-063"
+        ],
+        "min_chars": 12
+      },
+      "hint": "Vuelve a la consigna y completa solo lo que puedas justificar con el contenido de la clase. No hace falta responder más de lo pedido."
+    },
+    {
+      "index": 23,
+      "focus_id": "unidad-1-f19",
+      "section_id": "unidad-1",
+      "section_title": "Lección 1 — Responder no es comprender",
+      "focus_label": "El Volumen 0 de este proyecto establece precisamente esta frontera: aprender a detenerse antes de responder…",
+      "kind": "narrative",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “El Volumen 0 de este proyecto establece precisamente esta frontera: aprender a detenerse antes de responder, observar la pregunta como una estructura de información, acción y resultado esperado y poder explicar qué se está preguntando sin resolverlo todavía.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "El Volumen 0 de este proyecto establece precisamente esta frontera: aprender a detenerse antes de responder, observar la pregunta como una estructura de información, acción y resultado esperado y poder explicar qué se está preguntando sin resolverlo todavía."
+    },
+    {
+      "index": 24,
+      "focus_id": "unidad-1-f20",
+      "section_id": "unidad-1",
+      "section_title": "Lección 1 — Responder no es comprender",
+      "focus_label": "Hasta ahora teníamos un modelo muy sencillo:",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Hasta ahora teníamos un modelo muy sencillo:” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Hasta ahora teníamos un modelo muy sencillo:"
+    },
+    {
+      "index": 25,
+      "focus_id": "unidad-1-f21",
+      "section_id": "unidad-1",
+      "section_title": "Lección 1 — Responder no es comprender",
+      "focus_label": "HASTA AHORA · MODELO MUY SENCILLO",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “HASTA AHORA · MODELO MUY SENCILLO Alguien pregunta. → Nosotros respondemos. Pregunta. → Respuesta.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "HASTA AHORA · MODELO MUY SENCILLO Alguien pregunta. → Nosotros respondemos. Pregunta. → Respuesta."
+    },
+    {
+      "index": 26,
+      "focus_id": "unidad-1-f22",
+      "section_id": "unidad-1",
+      "section_title": "Lección 1 — Responder no es comprender",
+      "focus_label": "Vamos a introducir una primera modificación.",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Vamos a introducir una primera modificación.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Vamos a introducir una primera modificación."
+    },
+    {
+      "index": 27,
+      "focus_id": "unidad-1-f23",
+      "section_id": "unidad-1",
+      "section_title": "Lección 1 — Responder no es comprender",
+      "focus_label": "PRIMERA MODIFICACIÓN · MODELO CON COMPRENSIÓN",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “PRIMERA MODIFICACIÓN · MODELO CON COMPRENSIÓN Pregunta. Comprensión. Respuesta.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "PRIMERA MODIFICACIÓN · MODELO CON COMPRENSIÓN Pregunta. Comprensión. Respuesta."
+    },
+    {
+      "index": 28,
+      "focus_id": "unidad-1-f24",
+      "section_id": "unidad-1",
+      "section_title": "Lección 1 — Responder no es comprender",
+      "focus_label": "UNA SOLA PALABRA CAMBIA EL MODELO Parece una modificación pequeña. Solo hemos añadido una palabra. Pero cas…",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “UNA SOLA PALABRA CAMBIA EL MODELO Parece una modificación pequeña. Solo hemos añadido una palabra. Pero casi todo lo que vamos a estudiar en este curso cabe dentro de esa palabra. Comprensión. Porque comprender una pregunta no significa únicamente conocer el significado de las palabras. Vamos a comprobarlo.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "UNA SOLA PALABRA CAMBIA EL MODELO Parece una modificación pequeña. Solo hemos añadido una palabra. Pero casi todo lo que vamos a estudiar en este curso cabe dentro de esa palabra. Comprensión. Porque comprender una pregunta no significa únicamente conocer el significado de las palabras. Vamos a comprobarlo."
+    },
+    {
+      "index": 29,
+      "focus_id": "unidad-1-f25",
+      "section_id": "unidad-1",
+      "section_title": "Lección 1 — Responder no es comprender",
+      "focus_label": "PAUSA · COMPRUEBA QUE HAS VISTO EL SALTO ¿Qué diferencia hay entre entender las palabras y saber qué hacer?…",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “PAUSA · COMPRUEBA QUE HAS VISTO EL SALTO ¿Qué diferencia hay entre entender las palabras y saber qué hacer? ¿En qué punto puede aparecer el error antes de responder? Explica con tus palabras por qué aparece «Comprensión» entre pregunta y respuesta.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "PAUSA · COMPRUEBA QUE HAS VISTO EL SALTO ¿Qué diferencia hay entre entender las palabras y saber qué hacer? ¿En qué punto puede aparecer el error antes de responder? Explica con tus palabras por qué aparece «Comprensión» entre pregunta y respuesta."
+    },
+    {
+      "index": 30,
+      "focus_id": "unidad-1-f26",
+      "section_id": "unidad-1",
+      "section_title": "Lección 1 — Responder no es comprender",
+      "focus_label": "ESPACIO DE TRABAJO Escribe una expresión breve que pueda significar más de una cosa. No la resuelvas: anota…",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “ESPACIO DE TRABAJO Escribe una expresión breve que pueda significar más de una cosa. No la resuelvas: anota qué información necesitarías antes de actuar.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "ESPACIO DE TRABAJO Escribe una expresión breve que pueda significar más de una cosa. No la resuelvas: anota qué información necesitarías antes de actuar."
+    },
+    {
+      "index": 31,
+      "focus_id": "unidad-2-f01",
+      "section_id": "unidad-2",
+      "section_title": "Lección 2 — La forma de la frase no determina la acción",
+      "focus_label": "LENGUAJE",
+      "kind": "lesson",
+      "required": false,
+      "message": "Entramos en **Lección 2 — La forma de la frase no determina la acción**. **Mira aquí**. No intentes abarcar toda la página: iremos fragmento por fragmento y el documento avanzará conmigo. Cuando estés situado, pulsa **Siguiente**.",
+      "source_excerpt": "02 LENGUAJE Lección 2 — La forma de la frase no determina la acción Forma visible vs. acción real 1 2 3 4 5 6 7 8"
+    },
+    {
+      "index": 32,
+      "focus_id": "unidad-2-f02",
+      "section_id": "unidad-2",
+      "section_title": "Lección 2 — La forma de la frase no determina la acción",
+      "focus_label": "MAPA VISUAL",
+      "kind": "visual",
+      "required": false,
+      "message": "**Mira aquí**. Este esquema visual organiza la idea del bloque. Observa primero las relaciones y la dirección del recorrido; todavía no lo conviertas en una regla rígida. Cuando puedas explicar qué conecta con qué, pulsa **Siguiente**.",
+      "source_excerpt": "MAPA VISUAL Forma superficial y acción"
+    },
+    {
+      "index": 33,
+      "focus_id": "unidad-2-f03",
+      "section_id": "unidad-2",
+      "section_title": "Lección 2 — La forma de la frase no determina la acción",
+      "focus_label": "CASO 1 · ¿TIENES HORA?",
+      "kind": "case",
+      "required": false,
+      "message": "Vamos a mirar un caso concreto. **Mira aquí**: CASO 1 · ¿TIENES HORA? Imagina que digo: ¿Tienes hora? Entiendes perfectamente las palabras. Literalmente te estoy preguntando si posees una determinada información. Podrías responder: Sí. Y desde un punto de vista estrictamente literal, habrías respondido. Pero casi nadie espera esa respuesta. Normalmente esperamos que la… No busques todavía una definición general; identifica qué cambió entre la expresión y la acción esperada. Después pulsa **Siguiente**.",
+      "source_excerpt": "CASO 1 · ¿TIENES HORA? Imagina que digo: ¿Tienes hora? Entiendes perfectamente las palabras. Literalmente te estoy preguntando si posees una determinada información. Podrías responder: Sí. Y desde un punto de vista estrictamente literal, habrías respondido. Pero casi nadie espera esa respuesta. Normalmente esperamos que la persona diga: Son las cuatro y veinte."
+    },
+    {
+      "index": 34,
+      "focus_id": "unidad-2-f04",
+      "section_id": "unidad-2",
+      "section_title": "Lección 2 — La forma de la frase no determina la acción",
+      "focus_label": "Eso significa que existe una diferencia entre la forma superficial de una expresión y la acción que normalm…",
+      "kind": "narrative",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Eso significa que existe una diferencia entre la forma superficial de una expresión y la acción que normalmente estamos intentando realizar con ella.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Eso significa que existe una diferencia entre la forma superficial de una expresión y la acción que normalmente estamos intentando realizar con ella."
+    },
+    {
+      "index": 35,
+      "focus_id": "unidad-2-f05",
+      "section_id": "unidad-2",
+      "section_title": "Lección 2 — La forma de la frase no determina la acción",
+      "focus_label": "CASO 2 · ¿PUEDES CERRAR LA PUERTA?",
+      "kind": "case",
+      "required": false,
+      "message": "Vamos a mirar un caso concreto. **Mira aquí**: CASO 2 · ¿PUEDES CERRAR LA PUERTA? Probemos con otra. ¿Puedes cerrar la puerta? Una respuesta perfectamente válida desde el punto de vista literal sería: Sí, puedo. Pero probablemente no es eso lo que se espera. La pregunta tiene forma de consulta sobre una capacidad. Pero en la mayoría de situaciones funciona como una… No busques todavía una definición general; identifica qué cambió entre la expresión y la acción esperada. Después pulsa **Siguiente**.",
+      "source_excerpt": "CASO 2 · ¿PUEDES CERRAR LA PUERTA? Probemos con otra. ¿Puedes cerrar la puerta? Una respuesta perfectamente válida desde el punto de vista literal sería: Sí, puedo. Pero probablemente no es eso lo que se espera. La pregunta tiene forma de consulta sobre una capacidad. Pero en la mayoría de situaciones funciona como una petición. Cierra la puerta."
+    },
+    {
+      "index": 36,
+      "focus_id": "unidad-2-f06",
+      "section_id": "unidad-2",
+      "section_title": "Lección 2 — La forma de la frase no determina la acción",
+      "focus_label": "CASO 3 · DIME DÓNDE ESTÁ EL ARCHIVO",
+      "kind": "case",
+      "required": false,
+      "message": "Vamos a mirar un caso concreto. **Mira aquí**: CASO 3 · DIME DÓNDE ESTÁ EL ARCHIVO Probemos ahora lo contrario. Dime dónde está el archivo. Aquí ni siquiera tenemos una frase escrita con signos de interrogación. Y, sin embargo, existe una búsqueda de información. Queremos que alguien nos proporcione una localización. No busques todavía una definición general; identifica qué cambió entre la expresión y la acción esperada. Después pulsa **Siguiente**.",
+      "source_excerpt": "CASO 3 · DIME DÓNDE ESTÁ EL ARCHIVO Probemos ahora lo contrario. Dime dónde está el archivo. Aquí ni siquiera tenemos una frase escrita con signos de interrogación. Y, sin embargo, existe una búsqueda de información. Queremos que alguien nos proporcione una localización."
+    },
+    {
+      "index": 37,
+      "focus_id": "unidad-2-f07",
+      "section_id": "unidad-2",
+      "section_title": "Lección 2 — La forma de la frase no determina la acción",
+      "focus_label": "Esto ya nos permite descubrir algo. Una pregunta no puede definirse simplemente como una frase que empieza …",
+      "kind": "key",
+      "required": false,
+      "message": "Detente en esta idea. **Mira aquí**: Esto ya nos permite descubrir algo. Una pregunta no puede definirse simplemente como una frase que empieza y termina con signos de interrogación. Hay algo más. Todavía no vamos a intentar definir exactamente qué es ese algo. Eso llegará en la siguiente clase. Por ahora únicamente necesitamos aprender a verlo. Esta pieza es una conclusión provisional que utilizaremos después. Cuando la puedas repetir con tus propias palabras, pulsa **Siguiente**.",
+      "source_excerpt": "Esto ya nos permite descubrir algo. Una pregunta no puede definirse simplemente como una frase que empieza y termina con signos de interrogación. Hay algo más. Todavía no vamos a intentar definir exactamente qué es ese algo. Eso llegará en la siguiente clase. Por ahora únicamente necesitamos aprender a verlo."
+    },
+    {
+      "index": 38,
+      "focus_id": "unidad-2-f08",
+      "section_id": "unidad-2",
+      "section_title": "Lección 2 — La forma de la frase no determina la acción",
+      "focus_label": "Cuando una persona habla, no produce solamente palabras. También intenta hacer algo mediante esas palabras.…",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Cuando una persona habla, no produce solamente palabras. También intenta hacer algo mediante esas palabras. Por eso, cuando recibimos una pregunta, una orden o una petición, no estamos recibiendo únicamente texto. Estamos recibiendo una posible acción.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Cuando una persona habla, no produce solamente palabras. También intenta hacer algo mediante esas palabras. Por eso, cuando recibimos una pregunta, una orden o una petición, no estamos recibiendo únicamente texto. Estamos recibiendo una posible acción."
+    },
+    {
+      "index": 39,
+      "focus_id": "unidad-2-f09",
+      "section_id": "unidad-2",
+      "section_title": "Lección 2 — La forma de la frase no determina la acción",
+      "focus_label": "EL LENGUAJE PUEDE INTENTAR HACER MUCHAS COSAS",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “EL LENGUAJE PUEDE INTENTAR HACER MUCHAS COSAS Puede querer obtener información. Puede querer reducir una duda. Puede querer que alguien tome una decisión. Puede querer provocar una acción. Puede querer comprobar algo. Puede querer corregir una situación. Puede querer crear algo. Puede querer confirmar que ambos están hablando…” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "EL LENGUAJE PUEDE INTENTAR HACER MUCHAS COSAS Puede querer obtener información. Puede querer reducir una duda. Puede querer que alguien tome una decisión. Puede querer provocar una acción. Puede querer comprobar algo. Puede querer corregir una situación. Puede querer crear algo. Puede querer confirmar que ambos están hablando de lo mismo."
+    },
+    {
+      "index": 40,
+      "focus_id": "unidad-2-f10",
+      "section_id": "unidad-2",
+      "section_title": "Lección 2 — La forma de la frase no determina la acción",
+      "focus_label": "EJEMPLO RESUELTO",
+      "kind": "case",
+      "required": false,
+      "message": "Vamos a mirar un caso concreto. **Mira aquí**: EJEMPLO RESUELTO Expresión: “¿Puedes cerrar la puerta?” Lectura literal: pregunta sobre capacidad. Lectura situada habitual: petición de acción. Aprendizaje: la gramática visible y la operación esperada pueden no coincidir. No busques todavía una definición general; identifica qué cambió entre la expresión y la acción esperada. Después pulsa **Siguiente**.",
+      "source_excerpt": "EJEMPLO RESUELTO Expresión: “¿Puedes cerrar la puerta?” Lectura literal: pregunta sobre capacidad. Lectura situada habitual: petición de acción. Aprendizaje: la gramática visible y la operación esperada pueden no coincidir."
+    },
+    {
+      "index": 41,
+      "focus_id": "unidad-2-f11",
+      "section_id": "unidad-2",
+      "section_title": "Lección 2 — La forma de la frase no determina la acción",
+      "focus_label": "PRUEBA RÁPIDA · FORMA ≠ OPERACIÓN ¿Tienes hora? → ¿Consulta sobre capacidad o petición de información? Sele…",
+      "kind": "exercise",
+      "required": true,
+      "message": "Ahora te toca trabajar. **Mira aquí**: PRUEBA RÁPIDA · FORMA ≠ OPERACIÓN ¿Tienes hora? → ¿Consulta sobre capacidad o petición de información? Selecciona… consulta sobre capacidad petición de información petición de acción búsqueda de información Comprobar ¿Puedes cerrar la puerta? → ¿Consulta sobre capacidad o petición de acción? Selecciona… consulta sobre capacidad… Este es un **punto obligatorio**. Completa la actividad indicada; el botón **Siguiente** permanecerá bloqueado hasta que el punto quede registrado como superado.",
+      "source_excerpt": "PRUEBA RÁPIDA · FORMA ≠ OPERACIÓN ¿Tienes hora? → ¿Consulta sobre capacidad o petición de información? Selecciona… consulta sobre capacidad petición de información petición de acción búsqueda de información Comprobar ¿Puedes cerrar la puerta? → ¿Consulta sobre capacidad o petición de acción? Selecciona… consulta sobre capacidad petición de información petición de acción búsqueda de información Comprobar Dime dónde está el archivo. → ¿Frase interrogativa o búsqueda de información? Selecciona… consulta sobre capacidad petición de información petición de acción búsqueda de información Comprobar Marca qué operación esperas en cada caso y explica qué pista contextual usarías. Justifica tus tres…",
+      "gate": {
+        "mode": "auto_correct",
+        "description": "Resuelve correctamente las tres operaciones y justifica tus decisiones.",
+        "selects": [
+          {
+            "key": "operation-060",
+            "correct": "petición de información"
+          },
+          {
+            "key": "operation-061",
+            "correct": "petición de acción"
+          },
+          {
+            "key": "operation-062",
+            "correct": "búsqueda de información"
+          }
+        ],
+        "text_keys": [
+          "resp-068"
+        ],
+        "min_chars": 12
+      },
+      "hint": "Mira la operación que se espera en la situación, no solo la forma gramatical de la frase."
+    },
+    {
+      "index": 42,
+      "focus_id": "unidad-3-f01",
+      "section_id": "unidad-3",
+      "section_title": "Lección 3 — Una pregunta intenta cambiar un estado",
+      "focus_label": "TRANSFORMACIÓN",
+      "kind": "lesson",
+      "required": false,
+      "message": "Entramos en **Lección 3 — Una pregunta intenta cambiar un estado**. **Mira aquí**. No intentes abarcar toda la página: iremos fragmento por fragmento y el documento avanzará conmigo. Cuando estés situado, pulsa **Siguiente**.",
+      "source_excerpt": "03 TRANSFORMACIÓN Lección 3 — Una pregunta intenta cambiar un estado Del estado actual al esperado 1 2 3 4 5 6 7 8"
+    },
+    {
+      "index": 43,
+      "focus_id": "unidad-3-f02",
+      "section_id": "unidad-3",
+      "section_title": "Lección 3 — Una pregunta intenta cambiar un estado",
+      "focus_label": "Y aquí aparece otra idea importante.",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Y aquí aparece otra idea importante.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Y aquí aparece otra idea importante."
+    },
+    {
+      "index": 44,
+      "focus_id": "unidad-3-f03",
+      "section_id": "unidad-3",
+      "section_title": "Lección 3 — Una pregunta intenta cambiar un estado",
+      "focus_label": "MAPA VISUAL",
+      "kind": "visual",
+      "required": false,
+      "message": "**Mira aquí**. Este esquema visual organiza la idea del bloque. Observa primero las relaciones y la dirección del recorrido; todavía no lo conviertas en una regla rígida. Cuando puedas explicar qué conecta con qué, pulsa **Siguiente**.",
+      "source_excerpt": "MAPA VISUAL Estado actual, pregunta y estado esperado"
+    },
+    {
+      "index": 45,
+      "focus_id": "unidad-3-f04",
+      "section_id": "unidad-3",
+      "section_title": "Lección 3 — Una pregunta intenta cambiar un estado",
+      "focus_label": "Preguntamos porque existe alguna diferencia entre el estado en el que estamos ahora y otro estado al que qu…",
+      "kind": "narrative",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Preguntamos porque existe alguna diferencia entre el estado en el que estamos ahora y otro estado al que queremos llegar.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Preguntamos porque existe alguna diferencia entre el estado en el que estamos ahora y otro estado al que queremos llegar."
+    },
+    {
+      "index": 46,
+      "focus_id": "unidad-3-f05",
+      "section_id": "unidad-3",
+      "section_title": "Lección 3 — Una pregunta intenta cambiar un estado",
+      "focus_label": "SEIS FORMAS DE DISTANCIA ENTRE “AHORA” Y “DESPUÉS”",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “SEIS FORMAS DE DISTANCIA ENTRE “AHORA” Y “DESPUÉS” No sé algo. → Pregunto. Tengo varias posibilidades y no sé cuál elegir. → Pregunto. No entiendo algo. → Pregunto. Necesito producir algo y no sé cómo. → Pregunto. Quiero comprobar una hipótesis. → Pregunto. Quiero que alguien haga algo. → Puedo preguntarlo.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "SEIS FORMAS DE DISTANCIA ENTRE “AHORA” Y “DESPUÉS” No sé algo. → Pregunto. Tengo varias posibilidades y no sé cuál elegir. → Pregunto. No entiendo algo. → Pregunto. Necesito producir algo y no sé cómo. → Pregunto. Quiero comprobar una hipótesis. → Pregunto. Quiero que alguien haga algo. → Puedo preguntarlo."
+    },
+    {
+      "index": 47,
+      "focus_id": "unidad-3-f06",
+      "section_id": "unidad-3",
+      "section_title": "Lección 3 — Una pregunta intenta cambiar un estado",
+      "focus_label": "Podemos representar esa idea de una manera todavía muy sencilla.",
+      "kind": "narrative",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Podemos representar esa idea de una manera todavía muy sencilla.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Podemos representar esa idea de una manera todavía muy sencilla."
+    },
+    {
+      "index": 48,
+      "focus_id": "unidad-3-f07",
+      "section_id": "unidad-3",
+      "section_title": "Lección 3 — Una pregunta intenta cambiar un estado",
+      "focus_label": "MODELO MÍNIMO",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “MODELO MÍNIMO Estado actual. Pregunta. Estado esperado.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "MODELO MÍNIMO Estado actual. Pregunta. Estado esperado."
+    },
+    {
+      "index": 49,
+      "focus_id": "unidad-3-f08",
+      "section_id": "unidad-3",
+      "section_title": "Lección 3 — Una pregunta intenta cambiar un estado",
+      "focus_label": "ANTES DE FORMALIZAR No hace falta convertirlo todavía en matemáticas. Solo necesitamos entender qué signifi…",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “ANTES DE FORMALIZAR No hace falta convertirlo todavía en matemáticas. Solo necesitamos entender qué significa.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "ANTES DE FORMALIZAR No hace falta convertirlo todavía en matemáticas. Solo necesitamos entender qué significa."
+    },
+    {
+      "index": 50,
+      "focus_id": "unidad-3-f09",
+      "section_id": "unidad-3",
+      "section_title": "Lección 3 — Una pregunta intenta cambiar un estado",
+      "focus_label": "CASO 1 · DATO Si pregunto: ¿Qué hora es? ESTADO INICIAL Mi estado inicial contiene una ausencia. No conozco…",
+      "kind": "structured",
+      "required": false,
+      "message": "**Mira aquí**. Este bloque separa piezas que en una lectura rápida podrían mezclarse: CASO 1 · DATO Si pregunto: ¿Qué hora es? ESTADO INICIAL Mi estado inicial contiene una ausencia. No conozco la hora. ↓ CAMBIO ESPERADO Ahora conozco la hora. Después de recibir una respuesta adecuada espero haber cambiado de estado. Recorre cada parte en orden y pulsa **Siguiente** cuando veas la relación.",
+      "source_excerpt": "CASO 1 · DATO Si pregunto: ¿Qué hora es? ESTADO INICIAL Mi estado inicial contiene una ausencia. No conozco la hora. ↓ CAMBIO ESPERADO Ahora conozco la hora. Después de recibir una respuesta adecuada espero haber cambiado de estado."
+    },
+    {
+      "index": 51,
+      "focus_id": "unidad-3-f10",
+      "section_id": "unidad-3",
+      "section_title": "Lección 3 — Una pregunta intenta cambiar un estado",
+      "focus_label": "CASO 2 · INCERTIDUMBRE Si pregunto: ¿Cuál de estas dos opciones es más segura? ESTADO INICIAL Mi estado ini…",
+      "kind": "structured",
+      "required": false,
+      "message": "**Mira aquí**. Este bloque separa piezas que en una lectura rápida podrían mezclarse: CASO 2 · INCERTIDUMBRE Si pregunto: ¿Cuál de estas dos opciones es más segura? ESTADO INICIAL Mi estado inicial contiene incertidumbre. Tengo varias posibilidades y todavía no puedo decidir. ↓ CAMBIO ESPERADO La respuesta debería ayudarme a reducir esa incertidumbre. Recorre cada parte en orden y pulsa **Siguiente** cuando veas la relación.",
+      "source_excerpt": "CASO 2 · INCERTIDUMBRE Si pregunto: ¿Cuál de estas dos opciones es más segura? ESTADO INICIAL Mi estado inicial contiene incertidumbre. Tengo varias posibilidades y todavía no puedo decidir. ↓ CAMBIO ESPERADO La respuesta debería ayudarme a reducir esa incertidumbre."
+    },
+    {
+      "index": 52,
+      "focus_id": "unidad-3-f11",
+      "section_id": "unidad-3",
+      "section_title": "Lección 3 — Una pregunta intenta cambiar un estado",
+      "focus_label": "CASO 3 · COMPRENSIÓN Explícame por qué ha fallado este programa. ESTADO INICIAL Mi estado inicial contiene …",
+      "kind": "structured",
+      "required": false,
+      "message": "**Mira aquí**. Este bloque separa piezas que en una lectura rápida podrían mezclarse: CASO 3 · COMPRENSIÓN Explícame por qué ha fallado este programa. ESTADO INICIAL Mi estado inicial contiene una falta de comprensión. ↓ CAMBIO ESPERADO La salida esperada no es simplemente una frase. Espero terminar con un modelo mejor de lo ocurrido. Recorre cada parte en orden y pulsa **Siguiente** cuando veas la relación.",
+      "source_excerpt": "CASO 3 · COMPRENSIÓN Explícame por qué ha fallado este programa. ESTADO INICIAL Mi estado inicial contiene una falta de comprensión. ↓ CAMBIO ESPERADO La salida esperada no es simplemente una frase. Espero terminar con un modelo mejor de lo ocurrido."
+    },
+    {
+      "index": 53,
+      "focus_id": "unidad-3-f12",
+      "section_id": "unidad-3",
+      "section_title": "Lección 3 — Una pregunta intenta cambiar un estado",
+      "focus_label": "CASO 4 · ARTEFACTO Genera un informe con estos datos. ESTADO INICIAL Ahora no estoy pidiendo únicamente con…",
+      "kind": "structured",
+      "required": false,
+      "message": "**Mira aquí**. Este bloque separa piezas que en una lectura rápida podrían mezclarse: CASO 4 · ARTEFACTO Genera un informe con estos datos. ESTADO INICIAL Ahora no estoy pidiendo únicamente conocimiento. ↓ CAMBIO ESPERADO Estoy pidiendo que exista algo que antes no existía. Un informe. La situación cambia todavía más. Recorre cada parte en orden y pulsa **Siguiente** cuando veas la relación.",
+      "source_excerpt": "CASO 4 · ARTEFACTO Genera un informe con estos datos. ESTADO INICIAL Ahora no estoy pidiendo únicamente conocimiento. ↓ CAMBIO ESPERADO Estoy pidiendo que exista algo que antes no existía. Un informe. La situación cambia todavía más."
+    },
+    {
+      "index": 54,
+      "focus_id": "unidad-3-f13",
+      "section_id": "unidad-3",
+      "section_title": "Lección 3 — Una pregunta intenta cambiar un estado",
+      "focus_label": "CLASIFICA LA TRANSFORMACIÓN",
+      "kind": "exercise",
+      "required": true,
+      "message": "Ahora te toca trabajar. **Mira aquí**: CLASIFICA LA TRANSFORMACIÓN Para cada expresión, escribe qué falta en el estado inicial y qué debería existir en el estado final. “¿Qué hora es?” “Explícame por qué falla.” “Elige entre A y B.” “Crea un informe con estos datos.” Desarrolla tu respuesta Sin responder Pista IA Revisar con IA Este es un **punto obligatorio**. Completa la actividad indicada; el botón **Siguiente** permanecerá bloqueado hasta que el punto quede registrado como superado.",
+      "source_excerpt": "CLASIFICA LA TRANSFORMACIÓN Para cada expresión, escribe qué falta en el estado inicial y qué debería existir en el estado final. “¿Qué hora es?” “Explícame por qué falla.” “Elige entre A y B.” “Crea un informe con estos datos.” Desarrolla tu respuesta Sin responder Pista IA Revisar con IA",
+      "gate": {
+        "mode": "manual",
+        "description": "Responde todos los campos de este ejercicio y confirma que lo has revisado.",
+        "text_keys": [
+          "answer-002",
+          "resp-064"
+        ],
+        "min_chars": 12
+      },
+      "hint": "Vuelve a la consigna y completa solo lo que puedas justificar con el contenido de la clase. No hace falta responder más de lo pedido."
+    },
+    {
+      "index": 55,
+      "focus_id": "unidad-3-f14",
+      "section_id": "unidad-3",
+      "section_title": "Lección 3 — Una pregunta intenta cambiar un estado",
+      "focus_label": "HORIZONTE DEL CURSO Esto será muy importante más adelante. Porque este proyecto comenzará estudiando pregun…",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “HORIZONTE DEL CURSO Esto será muy importante más adelante. Porque este proyecto comenzará estudiando preguntas, pero terminará llegando a un territorio mucho más amplio: la intención, la acción, la ejecución, los resultados y la verificación. Pero todavía no estamos ahí. De momento vamos a quedarnos con una idea más sencilla.…” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "HORIZONTE DEL CURSO Esto será muy importante más adelante. Porque este proyecto comenzará estudiando preguntas, pero terminará llegando a un territorio mucho más amplio: la intención, la acción, la ejecución, los resultados y la verificación. Pero todavía no estamos ahí. De momento vamos a quedarnos con una idea más sencilla. Cuando alguien formula una pregunta intenta producir algún tipo de transformación."
+    },
+    {
+      "index": 56,
+      "focus_id": "unidad-3-f15",
+      "section_id": "unidad-3",
+      "section_title": "Lección 3 — Una pregunta intenta cambiar un estado",
+      "focus_label": "MODELO MÍNIMO",
+      "kind": "key",
+      "required": false,
+      "message": "Detente en esta idea. **Mira aquí**: MODELO MÍNIMO Estado actual → expresión/pregunta → estado esperado. El resultado adecuado depende de qué diferencia intenta reducir o transformar la persona: desconocimiento, incertidumbre, confusión, falta de decisión o ausencia de una solución. Esta pieza es una conclusión provisional que utilizaremos después. Cuando la puedas repetir con tus propias palabras, pulsa **Siguiente**.",
+      "source_excerpt": "MODELO MÍNIMO Estado actual → expresión/pregunta → estado esperado. El resultado adecuado depende de qué diferencia intenta reducir o transformar la persona: desconocimiento, incertidumbre, confusión, falta de decisión o ausencia de una solución."
+    },
+    {
+      "index": 57,
+      "focus_id": "unidad-3-f16",
+      "section_id": "unidad-3",
+      "section_title": "Lección 3 — Una pregunta intenta cambiar un estado",
+      "focus_label": "El propio Volumen 0 expresa esta intuición como una transición entre un estado inicial y un estado esperado…",
+      "kind": "narrative",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “El propio Volumen 0 expresa esta intuición como una transición entre un estado inicial y un estado esperado: desconocimiento que busca un dato, incertidumbre que busca reducir posibilidades, confusión que busca explicación, falta de decisión que busca una elección o ausencia de solución que busca un procedimiento.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "El propio Volumen 0 expresa esta intuición como una transición entre un estado inicial y un estado esperado: desconocimiento que busca un dato, incertidumbre que busca reducir posibilidades, confusión que busca explicación, falta de decisión que busca una elección o ausencia de solución que busca un procedimiento."
+    },
+    {
+      "index": 58,
+      "focus_id": "unidad-3-f17",
+      "section_id": "unidad-3",
+      "section_title": "Lección 3 — Una pregunta intenta cambiar un estado",
+      "focus_label": "APLICA EL MODELO · CAMBIO DE ESTADO Elige una pregunta cotidiana y descríbela sin responderla. ESTADO ACTUA…",
+      "kind": "exercise",
+      "required": true,
+      "message": "Ahora te toca trabajar. **Mira aquí**: APLICA EL MODELO · CAMBIO DE ESTADO Elige una pregunta cotidiana y descríbela sin responderla. ESTADO ACTUAL ¿Qué falta, qué no sé o qué no puedo decidir? EXPRESIÓN / PREGUNTA ¿Qué se ha dicho literalmente? ESTADO ESPERADO ¿Qué tendría que haber cambiado al terminar? Este es un **punto obligatorio**. Completa la actividad indicada; el botón **Siguiente** permanecerá bloqueado hasta que el punto quede registrado como superado.",
+      "source_excerpt": "APLICA EL MODELO · CAMBIO DE ESTADO Elige una pregunta cotidiana y descríbela sin responderla. ESTADO ACTUAL ¿Qué falta, qué no sé o qué no puedo decidir? EXPRESIÓN / PREGUNTA ¿Qué se ha dicho literalmente? ESTADO ESPERADO ¿Qué tendría que haber cambiado al terminar?",
+      "gate": {
+        "mode": "manual",
+        "description": "Completa los tres estados del modelo y confirma el punto.",
+        "text_keys": [
+          "state-003",
+          "state-004",
+          "state-005"
+        ],
+        "min_chars": 10
+      },
+      "hint": "Escribe primero qué falta en el estado inicial; después formula qué tendría que cambiar para considerar adecuada la respuesta."
+    },
+    {
+      "index": 59,
+      "focus_id": "unidad-4-f01",
+      "section_id": "unidad-4",
+      "section_title": "Lección 4 — El contexto modifica la operación",
+      "focus_label": "CONTEXTO",
+      "kind": "lesson",
+      "required": false,
+      "message": "Entramos en **Lección 4 — El contexto modifica la operación**. **Mira aquí**. No intentes abarcar toda la página: iremos fragmento por fragmento y el documento avanzará conmigo. Cuando estés situado, pulsa **Siguiente**.",
+      "source_excerpt": "04 CONTEXTO Lección 4 — El contexto modifica la operación La misma frase puede pedir cosas distintas 1 2 3 4 5 6 7 8"
+    },
+    {
+      "index": 60,
+      "focus_id": "unidad-4-f02",
+      "section_id": "unidad-4",
+      "section_title": "Lección 4 — El contexto modifica la operación",
+      "focus_label": "MAPA VISUAL",
+      "kind": "visual",
+      "required": false,
+      "message": "**Mira aquí**. Este esquema visual organiza la idea del bloque. Observa primero las relaciones y la dirección del recorrido; todavía no lo conviertas en una regla rígida. Cuando puedas explicar qué conecta con qué, pulsa **Siguiente**.",
+      "source_excerpt": "MAPA VISUAL La misma expresión cambia con el contexto"
+    },
+    {
+      "index": 61,
+      "focus_id": "unidad-4-f03",
+      "section_id": "unidad-4",
+      "section_title": "Lección 4 — El contexto modifica la operación",
+      "focus_label": "Ahora quiero que pensemos en algo aparentemente insignificante.",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Ahora quiero que pensemos en algo aparentemente insignificante.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Ahora quiero que pensemos en algo aparentemente insignificante."
+    },
+    {
+      "index": 62,
+      "focus_id": "unidad-4-f04",
+      "section_id": "unidad-4",
+      "section_title": "Lección 4 — El contexto modifica la operación",
+      "focus_label": "MISMAS PALABRAS ¿Seguimos? Dos palabras. Nada complicado. La operación cambia con la situación.",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “MISMAS PALABRAS ¿Seguimos? Dos palabras. Nada complicado. La operación cambia con la situación.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "MISMAS PALABRAS ¿Seguimos? Dos palabras. Nada complicado. La operación cambia con la situación."
+    },
+    {
+      "index": 63,
+      "focus_id": "unidad-4-f05",
+      "section_id": "unidad-4",
+      "section_title": "Lección 4 — El contexto modifica la operación",
+      "focus_label": "CLASE Supongamos que estamos en una clase. ¿Seguimos? Probablemente significa: ¿Continuamos con el siguient…",
+      "kind": "case",
+      "required": false,
+      "message": "Vamos a mirar un caso concreto. **Mira aquí**: CLASE Supongamos que estamos en una clase. ¿Seguimos? Probablemente significa: ¿Continuamos con el siguiente apartado? No busques todavía una definición general; identifica qué cambió entre la expresión y la acción esperada. Después pulsa **Siguiente**.",
+      "source_excerpt": "CLASE Supongamos que estamos en una clase. ¿Seguimos? Probablemente significa: ¿Continuamos con el siguiente apartado?"
+    },
+    {
+      "index": 64,
+      "focus_id": "unidad-4-f06",
+      "section_id": "unidad-4",
+      "section_title": "Lección 4 — El contexto modifica la operación",
+      "focus_label": "REUNIÓN Ahora imagina que estamos en una reunión donde tenemos que decidir si aprobamos un proyecto. ¿Segui…",
+      "kind": "case",
+      "required": false,
+      "message": "Vamos a mirar un caso concreto. **Mira aquí**: REUNIÓN Ahora imagina que estamos en una reunión donde tenemos que decidir si aprobamos un proyecto. ¿Seguimos? Podría significar: ¿Damos luz verde? No busques todavía una definición general; identifica qué cambió entre la expresión y la acción esperada. Después pulsa **Siguiente**.",
+      "source_excerpt": "REUNIÓN Ahora imagina que estamos en una reunión donde tenemos que decidir si aprobamos un proyecto. ¿Seguimos? Podría significar: ¿Damos luz verde?"
+    },
+    {
+      "index": 65,
+      "focus_id": "unidad-4-f07",
+      "section_id": "unidad-4",
+      "section_title": "Lección 4 — El contexto modifica la operación",
+      "focus_label": "EJECUCIÓN Ahora imagina que estamos observando un programa que lleva varios minutos ejecutándose. ¿Seguimos…",
+      "kind": "case",
+      "required": false,
+      "message": "Vamos a mirar un caso concreto. **Mira aquí**: EJECUCIÓN Ahora imagina que estamos observando un programa que lleva varios minutos ejecutándose. ¿Seguimos? Puede significar: ¿Dejamos que continúe la ejecución? No busques todavía una definición general; identifica qué cambió entre la expresión y la acción esperada. Después pulsa **Siguiente**.",
+      "source_excerpt": "EJECUCIÓN Ahora imagina que estamos observando un programa que lleva varios minutos ejecutándose. ¿Seguimos? Puede significar: ¿Dejamos que continúe la ejecución?"
+    },
+    {
+      "index": 66,
+      "focus_id": "unidad-4-f08",
+      "section_id": "unidad-4",
+      "section_title": "Lección 4 — El contexto modifica la operación",
+      "focus_label": "ESCRITURA Ahora imagina que estamos escribiendo un libro. ¿Seguimos? Puede significar: ¿Pasamos al siguient…",
+      "kind": "case",
+      "required": false,
+      "message": "Vamos a mirar un caso concreto. **Mira aquí**: ESCRITURA Ahora imagina que estamos escribiendo un libro. ¿Seguimos? Puede significar: ¿Pasamos al siguiente capítulo? No busques todavía una definición general; identifica qué cambió entre la expresión y la acción esperada. Después pulsa **Siguiente**.",
+      "source_excerpt": "ESCRITURA Ahora imagina que estamos escribiendo un libro. ¿Seguimos? Puede significar: ¿Pasamos al siguiente capítulo?"
+    },
+    {
+      "index": 67,
+      "focus_id": "unidad-4-f09",
+      "section_id": "unidad-4",
+      "section_title": "Lección 4 — El contexto modifica la operación",
+      "focus_label": "PALABRAS Las palabras no han cambiado. SITUACIÓN La situación sí. OPERACIÓN Y al cambiar la situación, camb…",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “PALABRAS Las palabras no han cambiado. SITUACIÓN La situación sí. OPERACIÓN Y al cambiar la situación, cambia la acción que asociamos a esas palabras.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "PALABRAS Las palabras no han cambiado. SITUACIÓN La situación sí. OPERACIÓN Y al cambiar la situación, cambia la acción que asociamos a esas palabras."
+    },
+    {
+      "index": 68,
+      "focus_id": "unidad-4-f10",
+      "section_id": "unidad-4",
+      "section_title": "Lección 4 — El contexto modifica la operación",
+      "focus_label": "Esto nos introduce en algo que iremos desarrollando mucho más adelante. El contexto. No vamos a definir tod…",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Esto nos introduce en algo que iremos desarrollando mucho más adelante. El contexto. No vamos a definir todavía formalmente qué es el contexto. Por ahora basta con algo muy básico. Hay información que no está necesariamente dentro de la frase, pero cambia la forma en que debemos interpretarla.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Esto nos introduce en algo que iremos desarrollando mucho más adelante. El contexto. No vamos a definir todavía formalmente qué es el contexto. Por ahora basta con algo muy básico. Hay información que no está necesariamente dentro de la frase, pero cambia la forma en que debemos interpretarla."
+    },
+    {
+      "index": 69,
+      "focus_id": "unidad-4-f11",
+      "section_id": "unidad-4",
+      "section_title": "Lección 4 — El contexto modifica la operación",
+      "focus_label": "OBSERVA EL CONTEXTO",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “OBSERVA EL CONTEXTO Cuando leas una orden breve, no preguntes solo “¿qué significan estas palabras?”. Añade: ¿qué objeto está activo?, ¿qué veníamos haciendo?, ¿qué se decidió ya?, ¿qué falta y qué no debe repetirse?” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "OBSERVA EL CONTEXTO Cuando leas una orden breve, no preguntes solo “¿qué significan estas palabras?”. Añade: ¿qué objeto está activo?, ¿qué veníamos haciendo?, ¿qué se decidió ya?, ¿qué falta y qué no debe repetirse?"
+    },
+    {
+      "index": 70,
+      "focus_id": "unidad-4-f12",
+      "section_id": "unidad-4",
+      "section_title": "Lección 4 — El contexto modifica la operación",
+      "focus_label": "Eso significa que una pregunta aislada y una pregunta situada no son exactamente el mismo objeto. PREGUNTA …",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Eso significa que una pregunta aislada y una pregunta situada no son exactamente el mismo objeto. PREGUNTA AISLADA «¿Seguimos?» escrito solo en una hoja tiene un significado muy pobre. PREGUNTA SITUADA «¿Seguimos?» después de cuarenta minutos trabajando juntos sobre un documento puede tener una operación perfectamente concreta.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Eso significa que una pregunta aislada y una pregunta situada no son exactamente el mismo objeto. PREGUNTA AISLADA «¿Seguimos?» escrito solo en una hoja tiene un significado muy pobre. PREGUNTA SITUADA «¿Seguimos?» después de cuarenta minutos trabajando juntos sobre un documento puede tener una operación perfectamente concreta."
+    },
+    {
+      "index": 71,
+      "focus_id": "unidad-4-f13",
+      "section_id": "unidad-4",
+      "section_title": "Lección 4 — El contexto modifica la operación",
+      "focus_label": "SEIS PIEZAS DE CONTEXTO",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “SEIS PIEZAS DE CONTEXTO La conversación anterior importa. El objeto que tenemos delante importa. La actividad que estamos realizando importa. Lo que ya hemos decidido importa. Lo que falta importa. Incluso lo que creemos que la otra persona sabe puede importar.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "SEIS PIEZAS DE CONTEXTO La conversación anterior importa. El objeto que tenemos delante importa. La actividad que estamos realizando importa. Lo que ya hemos decidido importa. Lo que falta importa. Incluso lo que creemos que la otra persona sabe puede importar."
+    },
+    {
+      "index": 72,
+      "focus_id": "unidad-4-f14",
+      "section_id": "unidad-4",
+      "section_title": "Lección 4 — El contexto modifica la operación",
+      "focus_label": "Vamos a probar con una frase que parece todavía más sencilla. Continúa. Una sola palabra. Imagina ahora que…",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Vamos a probar con una frase que parece todavía más sencilla. Continúa. Una sola palabra. Imagina ahora que esa palabra se dirige a una inteligencia artificial. Continúa. ¿Qué debería hacer?” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Vamos a probar con una frase que parece todavía más sencilla. Continúa. Una sola palabra. Imagina ahora que esa palabra se dirige a una inteligencia artificial. Continúa. ¿Qué debería hacer?"
+    },
+    {
+      "index": 73,
+      "focus_id": "unidad-4-f15",
+      "section_id": "unidad-4",
+      "section_title": "Lección 4 — El contexto modifica la operación",
+      "focus_label": "«CONTINÚA» ¿QUÉ?",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “«CONTINÚA» ¿QUÉ? Puede continuar un texto. Puede continuar una investigación. Puede continuar una lista. Puede continuar una ejecución. Puede continuar un análisis. Puede continuar desde el último punto de un proyecto. Puede continuar una conversación anterior.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "«CONTINÚA» ¿QUÉ? Puede continuar un texto. Puede continuar una investigación. Puede continuar una lista. Puede continuar una ejecución. Puede continuar un análisis. Puede continuar desde el último punto de un proyecto. Puede continuar una conversación anterior."
+    },
+    {
+      "index": 74,
+      "focus_id": "unidad-4-f16",
+      "section_id": "unidad-4",
+      "section_title": "Lección 4 — El contexto modifica la operación",
+      "focus_label": "Si el sistema solo observa la palabra «continúa», dispone de poquísima información.",
+      "kind": "narrative",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Si el sistema solo observa la palabra «continúa», dispone de poquísima información.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Si el sistema solo observa la palabra «continúa», dispone de poquísima información."
+    },
+    {
+      "index": 75,
+      "focus_id": "unidad-4-f17",
+      "section_id": "unidad-4",
+      "section_title": "Lección 4 — El contexto modifica la operación",
+      "focus_label": "Necesita algo más.",
+      "kind": "narrative",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Necesita algo más.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Necesita algo más."
+    },
+    {
+      "index": 76,
+      "focus_id": "unidad-4-f18",
+      "section_id": "unidad-4",
+      "section_title": "Lección 4 — El contexto modifica la operación",
+      "focus_label": "ANTES DE CONTINUAR, EL SISTEMA NECESITA...",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “ANTES DE CONTINUAR, EL SISTEMA NECESITA... Necesita reconstruir qué estaba ocurriendo antes. Necesita saber cuál era el objeto activo. Necesita saber qué parte estaba terminada. Necesita saber qué parte seguía pendiente. Necesita saber qué reglas estaban vigentes. Necesita saber incluso qué cosas no debe volver a hacer.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "ANTES DE CONTINUAR, EL SISTEMA NECESITA... Necesita reconstruir qué estaba ocurriendo antes. Necesita saber cuál era el objeto activo. Necesita saber qué parte estaba terminada. Necesita saber qué parte seguía pendiente. Necesita saber qué reglas estaban vigentes. Necesita saber incluso qué cosas no debe volver a hacer."
+    },
+    {
+      "index": 77,
+      "focus_id": "unidad-4-f19",
+      "section_id": "unidad-4",
+      "section_title": "Lección 4 — El contexto modifica la operación",
+      "focus_label": "LABORATORIO IA · “CONTINÚA”",
+      "kind": "exercise",
+      "required": true,
+      "message": "Ahora hacemos un laboratorio **sin IA en vivo**. **Mira aquí**. He dejado tres respuestas simuladas y pregeneradas para que puedas observar diferencias de interpretación sin Ollama. Este es un **punto obligatorio**. Completa la actividad indicada; el botón **Siguiente** permanecerá bloqueado hasta que el punto quede registrado como superado.",
+      "source_excerpt": "LABORATORIO IA · “CONTINÚA” Usa Codex, Copilot, Pi u otro asistente al que tengas acceso. En tres conversaciones separadas, escribe únicamente “Continúa.” , pero antes proporciona contextos distintos: un texto a medio redactar; una investigación con una tarea pendiente; un procedimiento técnico detenido en un paso concreto. Registra: qué continuó, qué contexto utilizó, qué supuso y si reabrió algo que ya estaba cerrado. Herramienta Qué interpretó Evidencia usada Suposición detectada Registro del laboratorio Sin responder Pista IA Revisar con IA",
+      "gate": {
+        "mode": "manual",
+        "description": "Lee las respuestas simuladas, escribe tu comparación y confirma el laboratorio.",
+        "text_keys": [
+          "resp-065"
+        ],
+        "min_chars": 24
+      },
+      "simulated_lab": {
+        "title": "SIMULACIÓN PREGENERADA · “CONTINÚA”",
+        "note": "Estas respuestas están grabadas para el ejercicio. No son ejecuciones actuales de Codex, Copilot o Pi.",
+        "responses": [
+          {
+            "name": "Respuesta A",
+            "text": "“Continúo el texto desde la última frase visible.”",
+            "reading": "Interpreta “continúa” como continuar escritura.",
+            "evidence": "Último contenido textual visible.",
+            "assumption": "Asume que el objeto activo sigue siendo el texto."
+          },
+          {
+            "name": "Respuesta B",
+            "text": "“Paso al siguiente punto del proyecto y preparo lo que falta.”",
+            "reading": "Interpreta “continúa” como avanzar el flujo de trabajo.",
+            "evidence": "Contexto de proyecto y tareas previas.",
+            "assumption": "Asume que la fase anterior está cerrada."
+          },
+          {
+            "name": "Respuesta C",
+            "text": "“Veo varias continuaciones posibles. Antes de actuar, confirmaría qué objeto y qué operación quieres continuar.”",
+            "reading": "Trata la expresión como insuficiente para ejecutar.",
+            "evidence": "La palabra “continúa” no identifica objeto ni operación.",
+            "assumption": "Evita completar huecos sin evidencia."
+          }
+        ],
+        "prefill": {
+          "obs-1-017": "Respuesta A · contexto textual",
+          "obs-1-018": "Continuar el texto",
+          "obs-1-019": "Último texto visible",
+          "obs-1-020": "Que el texto sigue siendo el objeto activo",
+          "obs-2-021": "Respuesta B · contexto de proyecto",
+          "obs-2-022": "Avanzar al siguiente punto",
+          "obs-2-023": "Tareas y estado previo",
+          "obs-2-024": "Que la fase anterior ya está cerrada",
+          "obs-3-025": "Respuesta C · contexto ambiguo",
+          "obs-3-026": "Pedir precisión antes de actuar",
+          "obs-3-027": "Faltan objeto y operación",
+          "obs-3-028": "No añade una operación no evidenciada"
+        }
+      },
+      "hint": "Vuelve a la consigna y completa solo lo que puedas justificar con el contenido de la clase. No hace falta responder más de lo pedido."
+    },
+    {
+      "index": 78,
+      "focus_id": "unidad-4-f20",
+      "section_id": "unidad-4",
+      "section_title": "Lección 4 — El contexto modifica la operación",
+      "focus_label": "Aquí empezamos a ver por qué estudiar preguntas acaba siendo relevante para estudiar inteligencia artificia…",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Aquí empezamos a ver por qué estudiar preguntas acaba siendo relevante para estudiar inteligencia artificial. Un sistema puede generar frases extraordinariamente convincentes. Puede escribir perfectamente. Puede conocer una enorme cantidad de información. Puede razonar sobre problemas difíciles. Pero si interpreta…” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Aquí empezamos a ver por qué estudiar preguntas acaba siendo relevante para estudiar inteligencia artificial. Un sistema puede generar frases extraordinariamente convincentes. Puede escribir perfectamente. Puede conocer una enorme cantidad de información. Puede razonar sobre problemas difíciles. Pero si interpreta incorrectamente qué le estás pidiendo, todas esas capacidades pueden utilizarse para resolver el problema equivocado. Y cuanto más potente sea el sistema, más importante se vuelve este punto. Un sistema débil que interpreta mal una pregunta puede producir una mala respuesta. Un sistema capaz de modificar archivos, ejecutar código, enviar mensajes o intervenir sobre sistemas…"
+    },
+    {
+      "index": 79,
+      "focus_id": "unidad-4-f21",
+      "section_id": "unidad-4",
+      "section_title": "Lección 4 — El contexto modifica la operación",
+      "focus_label": "PAUSA · CUANDO INTERPRETAR MAL YA PRODUCE EFECTOS Compara los dos escenarios. La frase puede ser la misma; …",
+      "kind": "exercise",
+      "required": true,
+      "message": "Ahora te toca trabajar. **Mira aquí**: PAUSA · CUANDO INTERPRETAR MAL YA PRODUCE EFECTOS Compara los dos escenarios. La frase puede ser la misma; el coste de interpretarla mal no lo es. SISTEMA SOLO RESPONDE Una mala interpretación puede producir una mala respuesta. SISTEMA PUEDE ACTUAR Una mala interpretación puede modificar archivos, ejecutar código o intervenir… Este es un **punto obligatorio**. Completa la actividad indicada; el botón **Siguiente** permanecerá bloqueado hasta que el punto quede registrado como superado.",
+      "source_excerpt": "PAUSA · CUANDO INTERPRETAR MAL YA PRODUCE EFECTOS Compara los dos escenarios. La frase puede ser la misma; el coste de interpretarla mal no lo es. SISTEMA SOLO RESPONDE Una mala interpretación puede producir una mala respuesta. SISTEMA PUEDE ACTUAR Una mala interpretación puede modificar archivos, ejecutar código o intervenir sobre sistemas externos. ¿Qué información exigirías antes de permitir una acción real? Explica tu criterio Sin responder Pista IA Revisar con IA",
+      "gate": {
+        "mode": "manual",
+        "description": "Completa la comprobación operacional y confirma el punto.",
+        "text_keys": [
+          "operational-006",
+          "resp-007"
+        ],
+        "min_chars": 16
+      },
+      "hint": "Vuelve a la consigna y completa solo lo que puedas justificar con el contenido de la clase. No hace falta responder más de lo pedido."
+    },
+    {
+      "index": 80,
+      "focus_id": "unidad-5-f01",
+      "section_id": "unidad-5",
+      "section_title": "Lección 5 — Interpretar sin inventar",
+      "focus_label": "EVIDENCIA",
+      "kind": "lesson",
+      "required": false,
+      "message": "Entramos en **Lección 5 — Interpretar sin inventar**. **Mira aquí**. No intentes abarcar toda la página: iremos fragmento por fragmento y el documento avanzará conmigo. Cuando estés situado, pulsa **Siguiente**.",
+      "source_excerpt": "05 EVIDENCIA Lección 5 — Interpretar sin inventar Comprender sin completar huecos 1 2 3 4 5 6 7 8"
+    },
+    {
+      "index": 81,
+      "focus_id": "unidad-5-f02",
+      "section_id": "unidad-5",
+      "section_title": "Lección 5 — Interpretar sin inventar",
+      "focus_label": "MAPA VISUAL",
+      "kind": "visual",
+      "required": false,
+      "message": "**Mira aquí**. Este esquema visual organiza la idea del bloque. Observa primero las relaciones y la dirección del recorrido; todavía no lo conviertas en una regla rígida. Cuando puedas explicar qué conecta con qué, pulsa **Siguiente**.",
+      "source_excerpt": "MAPA VISUAL Entre literalidad y sobreinterpretación"
+    },
+    {
+      "index": 82,
+      "focus_id": "unidad-5-f03",
+      "section_id": "unidad-5",
+      "section_title": "Lección 5 — Interpretar sin inventar",
+      "focus_label": "Quiero proponerte ahora otro ejemplo. RETO · NO RESPONDAS Una persona pregunta: ¿Podemos terminar esto hoy?…",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Quiero proponerte ahora otro ejemplo. RETO · NO RESPONDAS Una persona pregunta: ¿Podemos terminar esto hoy? No puedes decir sí. · No puedes decir no. · No puedes calcular cuánto queda. Solo puedes observar la pregunta. Ese es el ejercicio.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Quiero proponerte ahora otro ejemplo. RETO · NO RESPONDAS Una persona pregunta: ¿Podemos terminar esto hoy? No puedes decir sí. · No puedes decir no. · No puedes calcular cuánto queda. Solo puedes observar la pregunta. Ese es el ejercicio."
+    },
+    {
+      "index": 83,
+      "focus_id": "unidad-5-f04",
+      "section_id": "unidad-5",
+      "section_title": "Lección 5 — Interpretar sin inventar",
+      "focus_label": "¿Qué puede estar haciendo esa persona mediante esa frase?",
+      "kind": "narrative",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “¿Qué puede estar haciendo esa persona mediante esa frase?” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "¿Qué puede estar haciendo esa persona mediante esa frase?"
+    },
+    {
+      "index": 84,
+      "focus_id": "unidad-5-f05",
+      "section_id": "unidad-5",
+      "section_title": "Lección 5 — Interpretar sin inventar",
+      "focus_label": "SIETE INTERPRETACIONES COMPATIBLES A PRIMERA VISTA",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “SIETE INTERPRETACIONES COMPATIBLES A PRIMERA VISTA Quizá pregunta si existe tiempo suficiente. Quizá quiere una estimación. Quizá quiere identificar bloqueos. Quizá está proponiendo un objetivo. Quizá necesita decidir si pospone otra tarea. Quizá está ejerciendo presión. Quizá simplemente quiere saber cuál es el estado actual.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "SIETE INTERPRETACIONES COMPATIBLES A PRIMERA VISTA Quizá pregunta si existe tiempo suficiente. Quizá quiere una estimación. Quizá quiere identificar bloqueos. Quizá está proponiendo un objetivo. Quizá necesita decidir si pospone otra tarea. Quizá está ejerciendo presión. Quizá simplemente quiere saber cuál es el estado actual."
+    },
+    {
+      "index": 85,
+      "focus_id": "unidad-5-f06",
+      "section_id": "unidad-5",
+      "section_title": "Lección 5 — Interpretar sin inventar",
+      "focus_label": "Ahora viene la pregunta importante.",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Ahora viene la pregunta importante.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Ahora viene la pregunta importante."
+    },
+    {
+      "index": 86,
+      "focus_id": "unidad-5-f07",
+      "section_id": "unidad-5",
+      "section_title": "Lección 5 — Interpretar sin inventar",
+      "focus_label": "¿CÓMO ELEGIR ENTRE INTERPRETACIONES? ¿Cómo podríamos saber cuál de esas interpretaciones es correcta? Neces…",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “¿CÓMO ELEGIR ENTRE INTERPRETACIONES? ¿Cómo podríamos saber cuál de esas interpretaciones es correcta? Necesitamos evidencia. Necesitamos situación. Necesitamos contexto. Quizá necesitamos preguntar de nuevo.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "¿CÓMO ELEGIR ENTRE INTERPRETACIONES? ¿Cómo podríamos saber cuál de esas interpretaciones es correcta? Necesitamos evidencia. Necesitamos situación. Necesitamos contexto. Quizá necesitamos preguntar de nuevo."
+    },
+    {
+      "index": 87,
+      "focus_id": "unidad-5-f08",
+      "section_id": "unidad-5",
+      "section_title": "Lección 5 — Interpretar sin inventar",
+      "focus_label": "Y aquí aparece una frontera que tendremos que mantener durante todo el curso.",
+      "kind": "narrative",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Y aquí aparece una frontera que tendremos que mantener durante todo el curso.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Y aquí aparece una frontera que tendremos que mantener durante todo el curso."
+    },
+    {
+      "index": 88,
+      "focus_id": "unidad-5-f09",
+      "section_id": "unidad-5",
+      "section_title": "Lección 5 — Interpretar sin inventar",
+      "focus_label": "Interpretar no significa inventar.",
+      "kind": "narrative",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Interpretar no significa inventar.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Interpretar no significa inventar."
+    },
+    {
+      "index": 89,
+      "focus_id": "unidad-5-f10",
+      "section_id": "unidad-5",
+      "section_title": "Lección 5 — Interpretar sin inventar",
+      "focus_label": "FRONTERA",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “FRONTERA Una interpretación útil debe apoyarse en evidencia disponible. Si la evidencia no basta, la respuesta correcta puede ser pedir precisión en lugar de completar huecos por imaginación.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "FRONTERA Una interpretación útil debe apoyarse en evidencia disponible. Si la evidencia no basta, la respuesta correcta puede ser pedir precisión en lugar de completar huecos por imaginación."
+    },
+    {
+      "index": 90,
+      "focus_id": "unidad-5-f11",
+      "section_id": "unidad-5",
+      "section_title": "Lección 5 — Interpretar sin inventar",
+      "focus_label": "Cuando intentamos reconstruir qué quiere alguien, podemos equivocarnos.",
+      "kind": "narrative",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Cuando intentamos reconstruir qué quiere alguien, podemos equivocarnos.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Cuando intentamos reconstruir qué quiere alguien, podemos equivocarnos."
+    },
+    {
+      "index": 91,
+      "focus_id": "unidad-5-f12",
+      "section_id": "unidad-5",
+      "section_title": "Lección 5 — Interpretar sin inventar",
+      "focus_label": "No tenemos acceso directo a la mente de otra persona.",
+      "kind": "narrative",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “No tenemos acceso directo a la mente de otra persona.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "No tenemos acceso directo a la mente de otra persona."
+    },
+    {
+      "index": 92,
+      "focus_id": "unidad-5-f13",
+      "section_id": "unidad-5",
+      "section_title": "Lección 5 — Interpretar sin inventar",
+      "focus_label": "DE DÓNDE SALE UNA INTERPRETACIÓN",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “DE DÓNDE SALE UNA INTERPRETACIÓN Tenemos palabras. Tenemos contexto. Tenemos acciones anteriores. Tenemos datos. Tenemos convenciones. Podemos tener documentos. Podemos tener historial.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "DE DÓNDE SALE UNA INTERPRETACIÓN Tenemos palabras. Tenemos contexto. Tenemos acciones anteriores. Tenemos datos. Tenemos convenciones. Podemos tener documentos. Podemos tener historial."
+    },
+    {
+      "index": 93,
+      "focus_id": "unidad-5-f14",
+      "section_id": "unidad-5",
+      "section_title": "Lección 5 — Interpretar sin inventar",
+      "focus_label": "A partir de todo eso construimos una interpretación. → Pero una interpretación puede ser más o menos sólida…",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “A partir de todo eso construimos una interpretación. → Pero una interpretación puede ser más o menos sólida. → Por eso más adelante aprenderemos a distinguir lo que sabemos de lo que inferimos.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "A partir de todo eso construimos una interpretación. → Pero una interpretación puede ser más o menos sólida. → Por eso más adelante aprenderemos a distinguir lo que sabemos de lo que inferimos."
+    },
+    {
+      "index": 94,
+      "focus_id": "unidad-5-f15",
+      "section_id": "unidad-5",
+      "section_title": "Lección 5 — Interpretar sin inventar",
+      "focus_label": "TRES DISCIPLINAS",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “TRES DISCIPLINAS Aprenderemos a expresar incertidumbre. Aprenderemos cuándo una interpretación es suficientemente fuerte para continuar. Y aprenderemos cuándo debemos preguntar.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "TRES DISCIPLINAS Aprenderemos a expresar incertidumbre. Aprenderemos cuándo una interpretación es suficientemente fuerte para continuar. Y aprenderemos cuándo debemos preguntar."
+    },
+    {
+      "index": 95,
+      "focus_id": "unidad-5-f16",
+      "section_id": "unidad-5",
+      "section_title": "Lección 5 — Interpretar sin inventar",
+      "focus_label": "DEMASIADO POCO Podemos interpretar demasiado poco. Alguien dice: ¿Puedes cerrar la puerta? → “Sí.” Y respon…",
+      "kind": "structured",
+      "required": false,
+      "message": "**Mira aquí**. Este bloque separa piezas que en una lectura rápida podrían mezclarse: DEMASIADO POCO Podemos interpretar demasiado poco. Alguien dice: ¿Puedes cerrar la puerta? → “Sí.” Y respondemos: Hemos sido demasiado literales. Recorre cada parte en orden y pulsa **Siguiente** cuando veas la relación.",
+      "source_excerpt": "DEMASIADO POCO Podemos interpretar demasiado poco. Alguien dice: ¿Puedes cerrar la puerta? → “Sí.” Y respondemos: Hemos sido demasiado literales."
+    },
+    {
+      "index": 96,
+      "focus_id": "unidad-5-f17",
+      "section_id": "unidad-5",
+      "section_title": "Lección 5 — Interpretar sin inventar",
+      "focus_label": "ZONA CONTROLADA El objetivo será encontrar una zona controlada entre ambos extremos. Comprender lo suficien…",
+      "kind": "structured",
+      "required": false,
+      "message": "**Mira aquí**. Este bloque separa piezas que en una lectura rápida podrían mezclarse: ZONA CONTROLADA El objetivo será encontrar una zona controlada entre ambos extremos. Comprender lo suficiente para actuar correctamente. Sin inventar más de lo que la evidencia permite. Recorre cada parte en orden y pulsa **Siguiente** cuando veas la relación.",
+      "source_excerpt": "ZONA CONTROLADA El objetivo será encontrar una zona controlada entre ambos extremos. Comprender lo suficiente para actuar correctamente. Sin inventar más de lo que la evidencia permite."
+    },
+    {
+      "index": 97,
+      "focus_id": "unidad-5-f18",
+      "section_id": "unidad-5",
+      "section_title": "Lección 5 — Interpretar sin inventar",
+      "focus_label": "DEMASIADO Pero también podemos interpretar demasiado. Alguien dice: ¿Puedes cerrar la puerta? Y empezamos a…",
+      "kind": "structured",
+      "required": false,
+      "message": "**Mira aquí**. Este bloque separa piezas que en una lectura rápida podrían mezclarse: DEMASIADO Pero también podemos interpretar demasiado. Alguien dice: ¿Puedes cerrar la puerta? Y empezamos a construir una teoría psicológica completa sobre por qué esa persona quiere aislamiento. Eso tampoco es comprensión. Es sobreinterpretación. Recorre cada parte en orden y pulsa **Siguiente** cuando veas la relación.",
+      "source_excerpt": "DEMASIADO Pero también podemos interpretar demasiado. Alguien dice: ¿Puedes cerrar la puerta? Y empezamos a construir una teoría psicológica completa sobre por qué esa persona quiere aislamiento. Eso tampoco es comprensión. Es sobreinterpretación."
+    },
+    {
+      "index": 98,
+      "focus_id": "unidad-5-f19",
+      "section_id": "unidad-5",
+      "section_title": "Lección 5 — Interpretar sin inventar",
+      "focus_label": "EJERCICIO · EVIDENCIA O SUPOSICIÓN",
+      "kind": "exercise",
+      "required": true,
+      "message": "Ahora te toca trabajar. **Mira aquí**: EJERCICIO · EVIDENCIA O SUPOSICIÓN Lee: “¿Podemos terminar esto hoy?” Escribe dos interpretaciones compatibles con la frase. Después, para cada una, separa: evidencia que realmente tienes; información que necesitarías; suposiciones que no deberías tratar como hechos. INTERPRETACIÓN EVIDENCIA REAL INFORMACIÓN NECESARIA… Este es un **punto obligatorio**. Completa la actividad indicada; el botón **Siguiente** permanecerá bloqueado hasta que el punto quede registrado como superado.",
+      "source_excerpt": "EJERCICIO · EVIDENCIA O SUPOSICIÓN Lee: “¿Podemos terminar esto hoy?” Escribe dos interpretaciones compatibles con la frase. Después, para cada una, separa: evidencia que realmente tienes; información que necesitarías; suposiciones que no deberías tratar como hechos. INTERPRETACIÓN EVIDENCIA REAL INFORMACIÓN NECESARIA SUPOSICIONES 1 2 Conclusión del ejercicio Sin responder Pista IA Revisar con IA",
+      "gate": {
+        "mode": "manual",
+        "description": "Responde todos los campos de este ejercicio y confirma que lo has revisado.",
+        "text_keys": [
+          "evidence-1-008",
+          "evidence-1-009",
+          "evidence-1-010",
+          "evidence-1-011",
+          "evidence-2-012",
+          "evidence-2-013",
+          "evidence-2-014",
+          "evidence-2-015",
+          "resp-016"
+        ],
+        "min_chars": 12
+      },
+      "hint": "Separa en columnas mentales: evidencia explícita, interpretación posible y suposición añadida."
+    },
+    {
+      "index": 99,
+      "focus_id": "unidad-6-f01",
+      "section_id": "unidad-6",
+      "section_title": "Lección 6 — Reconstruir la petición antes de actuar",
+      "focus_label": "MÉTODO",
+      "kind": "lesson",
+      "required": false,
+      "message": "Entramos en **Lección 6 — Reconstruir la petición antes de actuar**. **Mira aquí**. No intentes abarcar toda la página: iremos fragmento por fragmento y el documento avanzará conmigo. Cuando estés situado, pulsa **Siguiente**.",
+      "source_excerpt": "06 MÉTODO Lección 6 — Reconstruir la petición antes de actuar Cinco preguntas antes de actuar 1 2 3 4 5 6 7 8"
+    },
+    {
+      "index": 100,
+      "focus_id": "unidad-6-f02",
+      "section_id": "unidad-6",
+      "section_title": "Lección 6 — Reconstruir la petición antes de actuar",
+      "focus_label": "MAPA VISUAL",
+      "kind": "visual",
+      "required": false,
+      "message": "**Mira aquí**. Este esquema visual organiza la idea del bloque. Observa primero las relaciones y la dirección del recorrido; todavía no lo conviertas en una regla rígida. Cuando puedas explicar qué conecta con qué, pulsa **Siguiente**.",
+      "source_excerpt": "MAPA VISUAL Preguntas de reconstrucción"
+    },
+    {
+      "index": 101,
+      "focus_id": "unidad-6-f03",
+      "section_id": "unidad-6",
+      "section_title": "Lección 6 — Reconstruir la petición antes de actuar",
+      "focus_label": "Vamos a volver ahora a nuestra primera frase. ¿Puedes mirar esto? Al principio parecía casi vacía. Ahora ya…",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Vamos a volver ahora a nuestra primera frase. ¿Puedes mirar esto? Al principio parecía casi vacía. Ahora ya podemos empezar a hacernos preguntas diferentes.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Vamos a volver ahora a nuestra primera frase. ¿Puedes mirar esto? Al principio parecía casi vacía. Ahora ya podemos empezar a hacernos preguntas diferentes."
+    },
+    {
+      "index": 102,
+      "focus_id": "unidad-6-f04",
+      "section_id": "unidad-6",
+      "section_title": "Lección 6 — Reconstruir la petición antes de actuar",
+      "focus_label": "RECONSTRUIR LA PETICIÓN",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “RECONSTRUIR LA PETICIÓN ¿Qué es «esto»? ¿Qué actividad estamos realizando? ¿Qué ocurrió justo antes? ¿Qué significa «mirar» en este contexto? ¿Qué espera recibir la persona? ¿Una opinión? ¿Una corrección? ¿Una validación? ¿Un diagnóstico? ¿Una transformación? ¿Existe algún criterio que nos permita saber cuándo hemos terminado?” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "RECONSTRUIR LA PETICIÓN ¿Qué es «esto»? ¿Qué actividad estamos realizando? ¿Qué ocurrió justo antes? ¿Qué significa «mirar» en este contexto? ¿Qué espera recibir la persona? ¿Una opinión? ¿Una corrección? ¿Una validación? ¿Un diagnóstico? ¿Una transformación? ¿Existe algún criterio que nos permita saber cuándo hemos terminado?"
+    },
+    {
+      "index": 103,
+      "focus_id": "unidad-6-f05",
+      "section_id": "unidad-6",
+      "section_title": "Lección 6 — Reconstruir la petición antes de actuar",
+      "focus_label": "LABORATORIO IA · “¿PUEDES REVISAR ESTO?”",
+      "kind": "exercise",
+      "required": true,
+      "message": "Ahora hacemos un laboratorio **sin IA en vivo**. **Mira aquí**. He dejado tres respuestas simuladas y pregeneradas para que puedas observar diferencias de interpretación sin Ollama. Este es un **punto obligatorio**. Completa la actividad indicada; el botón **Siguiente** permanecerá bloqueado hasta que el punto quede registrado como superado.",
+      "source_excerpt": "LABORATORIO IA · “¿PUEDES REVISAR ESTO?” Da a Codex, Copilot y/o Pi el mismo fragmento de práctica y escribe: “¿Puedes revisar esto?” No aclares qué significa revisar. Observa si la herramienta: identifica el objeto; elige por sí sola un criterio; pregunta cuál es el objetivo; corrige algo sin autorización; explica la incertidumbre de su interpretación. Compara conductas, no “qué herramienta es mejor”. Registro del laboratorio Sin responder Pista IA Revisar con IA",
+      "gate": {
+        "mode": "manual",
+        "description": "Lee las respuestas simuladas, escribe tu comparación y confirma el laboratorio.",
+        "text_keys": [
+          "resp-066"
+        ],
+        "min_chars": 24
+      },
+      "simulated_lab": {
+        "title": "SIMULACIÓN PREGENERADA · “¿PUEDES REVISAR ESTO?”",
+        "note": "Tres lecturas posibles para comparar sin conexión a IA.",
+        "responses": [
+          {
+            "name": "Respuesta A",
+            "text": "“Sí. Corregiría ortografía y redacción.”",
+            "reading": "Convierte revisar en corrección lingüística.",
+            "evidence": "La palabra “revisar” permite esa lectura.",
+            "assumption": "No confirma el criterio real."
+          },
+          {
+            "name": "Respuesta B",
+            "text": "“Comprobaría si funciona y cumple los requisitos.”",
+            "reading": "Interpreta revisión como validación técnica.",
+            "evidence": "Contexto de artefacto técnico.",
+            "assumption": "Supone que existen requisitos conocidos."
+          },
+          {
+            "name": "Respuesta C",
+            "text": "“Antes de revisar, necesito saber qué criterio quieres que use: redacción, funcionamiento, requisitos o estado de entrega.”",
+            "reading": "Expone la ambigüedad y pide criterio.",
+            "evidence": "“Revisar” admite operaciones distintas.",
+            "assumption": "Minimiza inferencias no justificadas."
+          }
+        ]
+      },
+      "hint": "Vuelve a la consigna y completa solo lo que puedas justificar con el contenido de la clase. No hace falta responder más de lo pedido."
+    },
+    {
+      "index": 104,
+      "focus_id": "unidad-6-f06",
+      "section_id": "unidad-6",
+      "section_title": "Lección 6 — Reconstruir la petición antes de actuar",
+      "focus_label": "TRABAJO ANTES DE RESPONDER Fíjate en algo. Todavía no hemos respondido. Y, sin embargo, estamos haciendo tr…",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “TRABAJO ANTES DE RESPONDER Fíjate en algo. Todavía no hemos respondido. Y, sin embargo, estamos haciendo trabajo. Estamos intentando reconstruir la pregunta.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "TRABAJO ANTES DE RESPONDER Fíjate en algo. Todavía no hemos respondido. Y, sin embargo, estamos haciendo trabajo. Estamos intentando reconstruir la pregunta."
+    },
+    {
+      "index": 105,
+      "focus_id": "unidad-6-f07",
+      "section_id": "unidad-6",
+      "section_title": "Lección 6 — Reconstruir la petición antes de actuar",
+      "focus_label": "MINIMÉTODO DE RECONSTRUCCIÓN",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “MINIMÉTODO DE RECONSTRUCCIÓN 1. Objeto 2. Actividad 3. Acción 4. Salida 5. Criterio de cierre Este método es provisional. Sirve para frenar la respuesta automática y hacer visible lo que todavía no está determinado.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "MINIMÉTODO DE RECONSTRUCCIÓN 1. Objeto 2. Actividad 3. Acción 4. Salida 5. Criterio de cierre Este método es provisional. Sirve para frenar la respuesta automática y hacer visible lo que todavía no está determinado."
+    },
+    {
+      "index": 106,
+      "focus_id": "unidad-6-f08",
+      "section_id": "unidad-6",
+      "section_title": "Lección 6 — Reconstruir la petición antes de actuar",
+      "focus_label": "Ese trabajo previo a la respuesta será el objeto fundamental del comienzo de este curso. El Volumen 0 defin…",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Ese trabajo previo a la respuesta será el objeto fundamental del comienzo de este curso. El Volumen 0 define precisamente el dominio de este nivel como la capacidad de explicar qué se ha dicho, sobre qué se pregunta, qué debe hacerse, qué información existe, qué falta, qué contexto modifica el significado, qué intención parece…” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Ese trabajo previo a la respuesta será el objeto fundamental del comienzo de este curso. El Volumen 0 define precisamente el dominio de este nivel como la capacidad de explicar qué se ha dicho, sobre qué se pregunta, qué debe hacerse, qué información existe, qué falta, qué contexto modifica el significado, qué intención parece existir, qué salida se espera y qué evidencia sostiene esa lectura. No vamos a aprender todo eso hoy. Hoy solo quiero que descubras que existe. Porque normalmente todas esas operaciones ocurren de forma rápida y casi invisible."
+    },
+    {
+      "index": 107,
+      "focus_id": "unidad-6-f09",
+      "section_id": "unidad-6",
+      "section_title": "Lección 6 — Reconstruir la petición antes de actuar",
+      "focus_label": "1 Alguien pregunta.",
+      "kind": "structured",
+      "required": false,
+      "message": "**Mira aquí**. Este bloque separa piezas que en una lectura rápida podrían mezclarse: 1 Alguien pregunta. Recorre cada parte en orden y pulsa **Siguiente** cuando veas la relación.",
+      "source_excerpt": "1 Alguien pregunta."
+    },
+    {
+      "index": 108,
+      "focus_id": "unidad-6-f10",
+      "section_id": "unidad-6",
+      "section_title": "Lección 6 — Reconstruir la petición antes de actuar",
+      "focus_label": "2 Nuestro cerebro reconoce una situación.",
+      "kind": "structured",
+      "required": false,
+      "message": "**Mira aquí**. Este bloque separa piezas que en una lectura rápida podrían mezclarse: 2 Nuestro cerebro reconoce una situación. Recorre cada parte en orden y pulsa **Siguiente** cuando veas la relación.",
+      "source_excerpt": "2 Nuestro cerebro reconoce una situación."
+    },
+    {
+      "index": 109,
+      "focus_id": "unidad-6-f11",
+      "section_id": "unidad-6",
+      "section_title": "Lección 6 — Reconstruir la petición antes de actuar",
+      "focus_label": "3 Interpreta.",
+      "kind": "structured",
+      "required": false,
+      "message": "**Mira aquí**. Este bloque separa piezas que en una lectura rápida podrían mezclarse: 3 Interpreta. Recorre cada parte en orden y pulsa **Siguiente** cuando veas la relación.",
+      "source_excerpt": "3 Interpreta."
+    },
+    {
+      "index": 110,
+      "focus_id": "unidad-6-f12",
+      "section_id": "unidad-6",
+      "section_title": "Lección 6 — Reconstruir la petición antes de actuar",
+      "focus_label": "4 Completa huecos.",
+      "kind": "structured",
+      "required": false,
+      "message": "**Mira aquí**. Este bloque separa piezas que en una lectura rápida podrían mezclarse: 4 Completa huecos. Recorre cada parte en orden y pulsa **Siguiente** cuando veas la relación.",
+      "source_excerpt": "4 Completa huecos."
+    },
+    {
+      "index": 111,
+      "focus_id": "unidad-6-f13",
+      "section_id": "unidad-6",
+      "section_title": "Lección 6 — Reconstruir la petición antes de actuar",
+      "focus_label": "5 Recuerda conversaciones anteriores.",
+      "kind": "structured",
+      "required": false,
+      "message": "**Mira aquí**. Este bloque separa piezas que en una lectura rápida podrían mezclarse: 5 Recuerda conversaciones anteriores. Recorre cada parte en orden y pulsa **Siguiente** cuando veas la relación.",
+      "source_excerpt": "5 Recuerda conversaciones anteriores."
+    },
+    {
+      "index": 112,
+      "focus_id": "unidad-6-f14",
+      "section_id": "unidad-6",
+      "section_title": "Lección 6 — Reconstruir la petición antes de actuar",
+      "focus_label": "6 Estima qué quiere la otra persona.",
+      "kind": "structured",
+      "required": false,
+      "message": "**Mira aquí**. Este bloque separa piezas que en una lectura rápida podrían mezclarse: 6 Estima qué quiere la otra persona. Recorre cada parte en orden y pulsa **Siguiente** cuando veas la relación.",
+      "source_excerpt": "6 Estima qué quiere la otra persona."
+    },
+    {
+      "index": 113,
+      "focus_id": "unidad-6-f15",
+      "section_id": "unidad-6",
+      "section_title": "Lección 6 — Reconstruir la petición antes de actuar",
+      "focus_label": "7 Y produce una respuesta.",
+      "kind": "structured",
+      "required": false,
+      "message": "**Mira aquí**. Este bloque separa piezas que en una lectura rápida podrían mezclarse: 7 Y produce una respuesta. Recorre cada parte en orden y pulsa **Siguiente** cuando veas la relación.",
+      "source_excerpt": "7 Y produce una respuesta."
+    },
+    {
+      "index": 114,
+      "focus_id": "unidad-6-f16",
+      "section_id": "unidad-6",
+      "section_title": "Lección 6 — Reconstruir la petición antes de actuar",
+      "focus_label": "INTERLUDIO · DESMONTAR PARA COMPRENDER Todo ocurre tan deprisa que parece un único movimiento. Pero no lo e…",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “INTERLUDIO · DESMONTAR PARA COMPRENDER Todo ocurre tan deprisa que parece un único movimiento. Pero no lo es. Este curso va a ralentizar ese movimiento. 01 ABRIR Vamos a abrirlo. 02 SEPARAR Vamos a separar sus partes. 03 OBSERVAR Vamos a observar qué ocurre dentro. 04 RECOMPONER Y después volveremos a montarlo.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "INTERLUDIO · DESMONTAR PARA COMPRENDER Todo ocurre tan deprisa que parece un único movimiento. Pero no lo es. Este curso va a ralentizar ese movimiento. 01 ABRIR Vamos a abrirlo. 02 SEPARAR Vamos a separar sus partes. 03 OBSERVAR Vamos a observar qué ocurre dentro. 04 RECOMPONER Y después volveremos a montarlo."
+    },
+    {
+      "index": 115,
+      "focus_id": "unidad-7-f01",
+      "section_id": "unidad-7",
+      "section_title": "Lección 7 — Del análisis de preguntas a la acción verificable",
+      "focus_label": "ACCIÓN",
+      "kind": "lesson",
+      "required": false,
+      "message": "Entramos en **Lección 7 — Del análisis de preguntas a la acción verificable**. **Mira aquí**. No intentes abarcar toda la página: iremos fragmento por fragmento y el documento avanzará conmigo. Cuando estés situado, pulsa **Siguiente**.",
+      "source_excerpt": "07 ACCIÓN Lección 7 — Del análisis de preguntas a la acción verificable Cuando interpretar mal produce efectos 1 2 3 4 5 6 7 8"
+    },
+    {
+      "index": 116,
+      "focus_id": "unidad-7-f02",
+      "section_id": "unidad-7",
+      "section_title": "Lección 7 — Del análisis de preguntas a la acción verificable",
+      "focus_label": "1 Primero aprenderemos a ver la pregunta.",
+      "kind": "structured",
+      "required": false,
+      "message": "**Mira aquí**. Este bloque separa piezas que en una lectura rápida podrían mezclarse: 1 Primero aprenderemos a ver la pregunta. Recorre cada parte en orden y pulsa **Siguiente** cuando veas la relación.",
+      "source_excerpt": "1 Primero aprenderemos a ver la pregunta."
+    },
+    {
+      "index": 117,
+      "focus_id": "unidad-7-f03",
+      "section_id": "unidad-7",
+      "section_title": "Lección 7 — Del análisis de preguntas a la acción verificable",
+      "focus_label": "2 Después aprenderemos a identificar sus elementos.",
+      "kind": "structured",
+      "required": false,
+      "message": "**Mira aquí**. Este bloque separa piezas que en una lectura rápida podrían mezclarse: 2 Después aprenderemos a identificar sus elementos. Recorre cada parte en orden y pulsa **Siguiente** cuando veas la relación.",
+      "source_excerpt": "2 Después aprenderemos a identificar sus elementos."
+    },
+    {
+      "index": 118,
+      "focus_id": "unidad-7-f04",
+      "section_id": "unidad-7",
+      "section_title": "Lección 7 — Del análisis de preguntas a la acción verificable",
+      "focus_label": "3 Más adelante veremos que una pregunta puede tener estructura lógica.",
+      "kind": "structured",
+      "required": false,
+      "message": "**Mira aquí**. Este bloque separa piezas que en una lectura rápida podrían mezclarse: 3 Más adelante veremos que una pregunta puede tener estructura lógica. Recorre cada parte en orden y pulsa **Siguiente** cuando veas la relación.",
+      "source_excerpt": "3 Más adelante veremos que una pregunta puede tener estructura lógica."
+    },
+    {
+      "index": 119,
+      "focus_id": "unidad-7-f05",
+      "section_id": "unidad-7",
+      "section_title": "Lección 7 — Del análisis de preguntas a la acción verificable",
+      "focus_label": "4 Veremos que puede formalizarse.",
+      "kind": "structured",
+      "required": false,
+      "message": "**Mira aquí**. Este bloque separa piezas que en una lectura rápida podrían mezclarse: 4 Veremos que puede formalizarse. Recorre cada parte en orden y pulsa **Siguiente** cuando veas la relación.",
+      "source_excerpt": "4 Veremos que puede formalizarse."
+    },
+    {
+      "index": 120,
+      "focus_id": "unidad-7-f06",
+      "section_id": "unidad-7",
+      "section_title": "Lección 7 — Del análisis de preguntas a la acción verificable",
+      "focus_label": "5 Veremos que las palabras adquieren significado dentro de contextos.",
+      "kind": "structured",
+      "required": false,
+      "message": "**Mira aquí**. Este bloque separa piezas que en una lectura rápida podrían mezclarse: 5 Veremos que las palabras adquieren significado dentro de contextos. Recorre cada parte en orden y pulsa **Siguiente** cuando veas la relación.",
+      "source_excerpt": "5 Veremos que las palabras adquieren significado dentro de contextos."
+    },
+    {
+      "index": 121,
+      "focus_id": "unidad-7-f07",
+      "section_id": "unidad-7",
+      "section_title": "Lección 7 — Del análisis de preguntas a la acción verificable",
+      "focus_label": "6 Veremos que quien pregunta realiza acciones mediante el lenguaje.",
+      "kind": "structured",
+      "required": false,
+      "message": "**Mira aquí**. Este bloque separa piezas que en una lectura rápida podrían mezclarse: 6 Veremos que quien pregunta realiza acciones mediante el lenguaje. Recorre cada parte en orden y pulsa **Siguiente** cuando veas la relación.",
+      "source_excerpt": "6 Veremos que quien pregunta realiza acciones mediante el lenguaje."
+    },
+    {
+      "index": 122,
+      "focus_id": "unidad-7-f08",
+      "section_id": "unidad-7",
+      "section_title": "Lección 7 — Del análisis de preguntas a la acción verificable",
+      "focus_label": "7 Veremos cómo una pregunta puede convertirse en método.",
+      "kind": "structured",
+      "required": false,
+      "message": "**Mira aquí**. Este bloque separa piezas que en una lectura rápida podrían mezclarse: 7 Veremos cómo una pregunta puede convertirse en método. Recorre cada parte en orden y pulsa **Siguiente** cuando veas la relación.",
+      "source_excerpt": "7 Veremos cómo una pregunta puede convertirse en método."
+    },
+    {
+      "index": 123,
+      "focus_id": "unidad-7-f09",
+      "section_id": "unidad-7",
+      "section_title": "Lección 7 — Del análisis de preguntas a la acción verificable",
+      "focus_label": "Después tendremos que preguntarnos algo todavía más difícil. ¿Qué evidencia autoriza una respuesta? Porque …",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Después tendremos que preguntarnos algo todavía más difícil. ¿Qué evidencia autoriza una respuesta? Porque responder no es lo mismo que saber. Y sonar convincente no es lo mismo que tener razón. 1 Después estudiaremos cómo construir respuestas. 2 Cómo comprobar si una respuesta realmente responde. 3 Cómo detectar errores. 4…” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Después tendremos que preguntarnos algo todavía más difícil. ¿Qué evidencia autoriza una respuesta? Porque responder no es lo mismo que saber. Y sonar convincente no es lo mismo que tener razón. 1 Después estudiaremos cómo construir respuestas. 2 Cómo comprobar si una respuesta realmente responde. 3 Cómo detectar errores. 4 Cómo revisar nuestras propias preguntas. 5 Y finalmente intentaremos convertir todo ese conocimiento en una arquitectura que pueda utilizarse de manera sistemática."
+    },
+    {
+      "index": 124,
+      "focus_id": "unidad-7-f10",
+      "section_id": "unidad-7",
+      "section_title": "Lección 7 — Del análisis de preguntas a la acción verificable",
+      "focus_label": "MAPA VISUAL",
+      "kind": "visual",
+      "required": false,
+      "message": "**Mira aquí**. Este esquema visual organiza la idea del bloque. Observa primero las relaciones y la dirección del recorrido; todavía no lo conviertas en una regla rígida. Cuando puedas explicar qué conecta con qué, pulsa **Siguiente**.",
+      "source_excerpt": "MAPA VISUAL Del lenguaje a una arquitectura verificable"
+    },
+    {
+      "index": 125,
+      "focus_id": "unidad-7-f11",
+      "section_id": "unidad-7",
+      "section_title": "Lección 7 — Del análisis de preguntas a la acción verificable",
+      "focus_label": "UNA ARQUITECTURA SISTEMÁTICA PUEDE VIVIR EN...",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “UNA ARQUITECTURA SISTEMÁTICA PUEDE VIVIR EN... En una persona. En una organización. En un proceso. O en una inteligencia artificial.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "UNA ARQUITECTURA SISTEMÁTICA PUEDE VIVIR EN... En una persona. En una organización. En un proceso. O en una inteligencia artificial."
+    },
+    {
+      "index": 126,
+      "focus_id": "unidad-7-f12",
+      "section_id": "unidad-7",
+      "section_title": "Lección 7 — Del análisis de preguntas a la acción verificable",
+      "focus_label": "Pero el recorrido no terminará ahí.",
+      "kind": "narrative",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Pero el recorrido no terminará ahí.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Pero el recorrido no terminará ahí."
+    },
+    {
+      "index": 127,
+      "focus_id": "unidad-7-f13",
+      "section_id": "unidad-7",
+      "section_title": "Lección 7 — Del análisis de preguntas a la acción verificable",
+      "focus_label": "Porque hay expresiones como estas:",
+      "kind": "narrative",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Porque hay expresiones como estas:” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Porque hay expresiones como estas:"
+    },
+    {
+      "index": 128,
+      "focus_id": "unidad-7-f14",
+      "section_id": "unidad-7",
+      "section_title": "Lección 7 — Del análisis de preguntas a la acción verificable",
+      "focus_label": "CUANDO LA EXPRESIÓN YA PUEDE PRODUCIR EFECTOS",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “CUANDO LA EXPRESIÓN YA PUEDE PRODUCIR EFECTOS Busca estos datos y prepara un informe. Modifica este archivo. Crea una aplicación. Ejecuta este procedimiento. Comprueba el resultado.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "CUANDO LA EXPRESIÓN YA PUEDE PRODUCIR EFECTOS Busca estos datos y prepara un informe. Modifica este archivo. Crea una aplicación. Ejecuta este procedimiento. Comprueba el resultado."
+    },
+    {
+      "index": 129,
+      "focus_id": "unidad-7-f15",
+      "section_id": "unidad-7",
+      "section_title": "Lección 7 — Del análisis de preguntas a la acción verificable",
+      "focus_label": "CAMBIO DE ESCALA",
+      "kind": "key",
+      "required": false,
+      "message": "Detente en esta idea. **Mira aquí**: CAMBIO DE ESCALA Cuando una expresión puede terminar modificando archivos, ejecutando procesos o creando artefactos, interpretar bien deja de ser solo una cuestión de lenguaje: afecta a qué acción se ejecuta y a cómo se comprueba después. Esta pieza es una conclusión provisional que utilizaremos después. Cuando la puedas repetir con tus propias palabras, pulsa **Siguiente**.",
+      "source_excerpt": "CAMBIO DE ESCALA Cuando una expresión puede terminar modificando archivos, ejecutando procesos o creando artefactos, interpretar bien deja de ser solo una cuestión de lenguaje: afecta a qué acción se ejecuta y a cómo se comprueba después."
+    },
+    {
+      "index": 130,
+      "focus_id": "unidad-7-f16",
+      "section_id": "unidad-7",
+      "section_title": "Lección 7 — Del análisis de preguntas a la acción verificable",
+      "focus_label": "PREGUNTAS QUE BUSCAN CONOCIMIENTO Aquí ya no estamos simplemente ante preguntas que buscan conocimiento. IN…",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “PREGUNTAS QUE BUSCAN CONOCIMIENTO Aquí ya no estamos simplemente ante preguntas que buscan conocimiento. INTENCIONES QUE PRODUCEN EFECTOS Estamos ante intenciones que pueden terminar produciendo acciones y cambios reales. Entonces necesitaremos aprender a distinguir lo que alguien expresa, lo que quiere conseguir, las…” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "PREGUNTAS QUE BUSCAN CONOCIMIENTO Aquí ya no estamos simplemente ante preguntas que buscan conocimiento. INTENCIONES QUE PRODUCEN EFECTOS Estamos ante intenciones que pueden terminar produciendo acciones y cambios reales. Entonces necesitaremos aprender a distinguir lo que alguien expresa, lo que quiere conseguir, las restricciones existentes, el objetivo concreto, el plan, la ejecución, el resultado y las pruebas que permiten verificar que realmente se consiguió lo que se pretendía. Ese será un territorio posterior. No necesitamos entrar en él ahora. Solo necesitamos saber que existe. Porque así podemos entender el recorrido general que vamos a comenzar. Vamos a partir de algo…"
+    },
+    {
+      "index": 131,
+      "focus_id": "unidad-8-f01",
+      "section_id": "unidad-8",
+      "section_title": "Lección 8 — El primer andamio de análisis",
+      "focus_label": "MODELO",
+      "kind": "lesson",
+      "required": false,
+      "message": "Entramos en **Lección 8 — El primer andamio de análisis**. **Mira aquí**. No intentes abarcar toda la página: iremos fragmento por fragmento y el documento avanzará conmigo. Cuando estés situado, pulsa **Siguiente**.",
+      "source_excerpt": "08 MODELO Lección 8 — El primer andamio de análisis Hacer visibles las piezas 1 2 3 4 5 6 7 8"
+    },
+    {
+      "index": 132,
+      "focus_id": "unidad-8-f02",
+      "section_id": "unidad-8",
+      "section_title": "Lección 8 — El primer andamio de análisis",
+      "focus_label": "MAPA VISUAL",
+      "kind": "visual",
+      "required": false,
+      "message": "**Mira aquí**. Este esquema visual organiza la idea del bloque. Observa primero las relaciones y la dirección del recorrido; todavía no lo conviertas en una regla rígida. Cuando puedas explicar qué conecta con qué, pulsa **Siguiente**.",
+      "source_excerpt": "MAPA VISUAL Primer andamio"
+    },
+    {
+      "index": 133,
+      "focus_id": "unidad-8-f03",
+      "section_id": "unidad-8",
+      "section_title": "Lección 8 — El primer andamio de análisis",
+      "focus_label": "Por ahora vamos a construir nuestro primer modelo. No es el modelo definitivo. De hecho, vamos a descubrir …",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Por ahora vamos a construir nuestro primer modelo. No es el modelo definitivo. De hecho, vamos a descubrir muy pronto que está incompleto. Pero necesitamos alguna estructura desde la que empezar. Tenemos:” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Por ahora vamos a construir nuestro primer modelo. No es el modelo definitivo. De hecho, vamos a descubrir muy pronto que está incompleto. Pero necesitamos alguna estructura desde la que empezar. Tenemos:"
+    },
+    {
+      "index": 134,
+      "focus_id": "unidad-8-f04",
+      "section_id": "unidad-8",
+      "section_title": "Lección 8 — El primer andamio de análisis",
+      "focus_label": "PRIMER ANDAMIO",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “PRIMER ANDAMIO Expresión. Interpretación. Acción requerida. Resultado esperado.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "PRIMER ANDAMIO Expresión. Interpretación. Acción requerida. Resultado esperado."
+    },
+    {
+      "index": 135,
+      "focus_id": "unidad-8-f05",
+      "section_id": "unidad-8",
+      "section_title": "Lección 8 — El primer andamio de análisis",
+      "focus_label": "ANDAMIO",
+      "kind": "key",
+      "required": false,
+      "message": "Detente en esta idea. **Mira aquí**: ANDAMIO Expresión → Interpretación → Acción requerida → Resultado esperado. No es el modelo final. Su valor está en permitir que el alumno vea piezas que antes parecían un único movimiento. Esta pieza es una conclusión provisional que utilizaremos después. Cuando la puedas repetir con tus propias palabras, pulsa **Siguiente**.",
+      "source_excerpt": "ANDAMIO Expresión → Interpretación → Acción requerida → Resultado esperado. No es el modelo final. Su valor está en permitir que el alumno vea piezas que antes parecían un único movimiento."
+    },
+    {
+      "index": 136,
+      "focus_id": "unidad-8-f06",
+      "section_id": "unidad-8",
+      "section_title": "Lección 8 — El primer andamio de análisis",
+      "focus_label": "Eso es todo. EXPRESIÓN Alguien produce una expresión. INTERPRETACIÓN Nosotros necesitamos interpretarla. AC…",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Eso es todo. EXPRESIÓN Alguien produce una expresión. INTERPRETACIÓN Nosotros necesitamos interpretarla. ACCIÓN De esa interpretación intentamos determinar qué acción se requiere. RESULTADO Y esa acción apunta hacia algún tipo de resultado esperado.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Eso es todo. EXPRESIÓN Alguien produce una expresión. INTERPRETACIÓN Nosotros necesitamos interpretarla. ACCIÓN De esa interpretación intentamos determinar qué acción se requiere. RESULTADO Y esa acción apunta hacia algún tipo de resultado esperado."
+    },
+    {
+      "index": 137,
+      "focus_id": "unidad-8-f07",
+      "section_id": "unidad-8",
+      "section_title": "Lección 8 — El primer andamio de análisis",
+      "focus_label": "NO ES EL MODELO FINAL No memorices esta cadena. No la conviertas en dogma. Es un andamio.",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “NO ES EL MODELO FINAL No memorices esta cadena. No la conviertas en dogma. Es un andamio.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "NO ES EL MODELO FINAL No memorices esta cadena. No la conviertas en dogma. Es un andamio."
+    },
+    {
+      "index": 138,
+      "focus_id": "unidad-8-f08",
+      "section_id": "unidad-8",
+      "section_title": "Lección 8 — El primer andamio de análisis",
+      "focus_label": "Durante el curso iremos encontrando cosas que faltan.",
+      "kind": "narrative",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Durante el curso iremos encontrando cosas que faltan.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Durante el curso iremos encontrando cosas que faltan."
+    },
+    {
+      "index": 139,
+      "focus_id": "unidad-8-f09",
+      "section_id": "unidad-8",
+      "section_title": "Lección 8 — El primer andamio de análisis",
+      "focus_label": "PIEZAS QUE DESPUÉS TENDREMOS QUE AÑADIR",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “PIEZAS QUE DESPUÉS TENDREMOS QUE AÑADIR Contexto. Información disponible. Información ausente. Presuposiciones. Restricciones. Intención. Evidencia. Incertidumbre. Criterios de suficiencia. Verificación.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "PIEZAS QUE DESPUÉS TENDREMOS QUE AÑADIR Contexto. Información disponible. Información ausente. Presuposiciones. Restricciones. Intención. Evidencia. Incertidumbre. Criterios de suficiencia. Verificación."
+    },
+    {
+      "index": 140,
+      "focus_id": "unidad-8-f10",
+      "section_id": "unidad-8",
+      "section_title": "Lección 8 — El primer andamio de análisis",
+      "focus_label": "Y probablemente descubriremos que algunas cosas que ahora hemos unido tendrán que separarse. Eso es exactam…",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Y probablemente descubriremos que algunas cosas que ahora hemos unido tendrán que separarse. Eso es exactamente lo que queremos. Porque aprender no consiste únicamente en recibir un modelo terminado. También consiste en descubrir por qué necesitamos cada pieza del modelo.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Y probablemente descubriremos que algunas cosas que ahora hemos unido tendrán que separarse. Eso es exactamente lo que queremos. Porque aprender no consiste únicamente en recibir un modelo terminado. También consiste en descubrir por qué necesitamos cada pieza del modelo."
+    },
+    {
+      "index": 141,
+      "focus_id": "unidad-8-f11",
+      "section_id": "unidad-8",
+      "section_title": "Lección 8 — El primer andamio de análisis",
+      "focus_label": "CHECKPOINT DEL ANDAMIO Antes del taller, comprueba qué puedes identificar ya sin resolver la petición. La e…",
+      "kind": "exercise",
+      "required": true,
+      "message": "Ahora te toca trabajar. **Mira aquí**: CHECKPOINT DEL ANDAMIO Antes del taller, comprueba qué puedes identificar ya sin resolver la petición. La expresión literal. Una interpretación justificable. La acción que parece requerida. El resultado esperado. Qué información falta para estar seguro. Este es un **punto obligatorio**. Completa la actividad indicada; el botón **Siguiente** permanecerá bloqueado hasta que el punto quede registrado como superado.",
+      "source_excerpt": "CHECKPOINT DEL ANDAMIO Antes del taller, comprueba qué puedes identificar ya sin resolver la petición. La expresión literal. Una interpretación justificable. La acción que parece requerida. El resultado esperado. Qué información falta para estar seguro.",
+      "gate": {
+        "mode": "auto_checklist",
+        "description": "Marca todos los elementos del checkpoint antes de continuar.",
+        "check_keys": [
+          "check-049",
+          "check-050",
+          "check-051",
+          "check-052",
+          "check-053"
+        ]
+      },
+      "hint": "Vuelve a la consigna y completa solo lo que puedas justificar con el contenido de la clase. No hace falta responder más de lo pedido."
+    },
+    {
+      "index": 142,
+      "focus_id": "unidad-9-f01",
+      "section_id": "unidad-9",
+      "section_title": "Taller final — Observa antes de responder",
+      "focus_label": "TALLER",
+      "kind": "lesson",
+      "required": false,
+      "message": "Entramos en **Taller final — Observa antes de responder**. **Mira aquí**. No intentes abarcar toda la página: iremos fragmento por fragmento y el documento avanzará conmigo. Cuando estés situado, pulsa **Siguiente**.",
+      "source_excerpt": "T TALLER Taller final — Observa antes de responder Aplicación integrada"
+    },
+    {
+      "index": 143,
+      "focus_id": "unidad-9-f02",
+      "section_id": "unidad-9",
+      "section_title": "Taller final — Observa antes de responder",
+      "focus_label": "Antes de terminar quiero proponerte un último ejercicio. Voy a darte cinco expresiones. No puedes responder…",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Antes de terminar quiero proponerte un último ejercicio. Voy a darte cinco expresiones. No puedes responderlas. Solo tienes que observar qué falta para poder hacerlo correctamente.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Antes de terminar quiero proponerte un último ejercicio. Voy a darte cinco expresiones. No puedes responderlas. Solo tienes que observar qué falta para poder hacerlo correctamente."
+    },
+    {
+      "index": 144,
+      "focus_id": "unidad-9-f03",
+      "section_id": "unidad-9",
+      "section_title": "Taller final — Observa antes de responder",
+      "focus_label": "CINCO EXPRESIONES · NO LAS RESUELVAS",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “CINCO EXPRESIONES · NO LAS RESUELVAS PRIMERA ¿Puedes revisar esto? SEGUNDA ¿Qué hago ahora? TERCERA Continúa. CUARTA ¿Está correcto? QUINTA Hazme una aplicación como esta.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "CINCO EXPRESIONES · NO LAS RESUELVAS PRIMERA ¿Puedes revisar esto? SEGUNDA ¿Qué hago ahora? TERCERA Continúa. CUARTA ¿Está correcto? QUINTA Hazme una aplicación como esta."
+    },
+    {
+      "index": 145,
+      "focus_id": "unidad-9-f04",
+      "section_id": "unidad-9",
+      "section_title": "Taller final — Observa antes de responder",
+      "focus_label": "No intentes resolver ninguna. Pregúntate: ¿Qué tendría que comprender antes de actuar?",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “No intentes resolver ninguna. Pregúntate: ¿Qué tendría que comprender antes de actuar?” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "No intentes resolver ninguna. Pregúntate: ¿Qué tendría que comprender antes de actuar?"
+    },
+    {
+      "index": 146,
+      "focus_id": "unidad-9-f05",
+      "section_id": "unidad-9",
+      "section_title": "Taller final — Observa antes de responder",
+      "focus_label": "HOJA DE TRABAJO",
+      "kind": "exercise",
+      "required": true,
+      "message": "Ahora te toca trabajar. **Mira aquí**: HOJA DE TRABAJO Para cada una de las cinco expresiones, completa: Expresión Objeto Acción posible Información que falta Criterio de cierre ¿Puedes revisar esto? ¿Qué hago ahora? Continúa. ¿Está correcto? Hazme una aplicación como esta. Síntesis del taller Sin responder Pista IA Revisar con IA Este es un **punto obligatorio**. Completa la actividad indicada; el botón **Siguiente** permanecerá bloqueado hasta que el punto quede registrado como superado.",
+      "source_excerpt": "HOJA DE TRABAJO Para cada una de las cinco expresiones, completa: Expresión Objeto Acción posible Información que falta Criterio de cierre ¿Puedes revisar esto? ¿Qué hago ahora? Continúa. ¿Está correcto? Hazme una aplicación como esta. Síntesis del taller Sin responder Pista IA Revisar con IA",
+      "gate": {
+        "mode": "manual",
+        "description": "Completa la hoja de trabajo y la reflexión final; después confirma el taller.",
+        "text_keys": [
+          "workshop-1-029",
+          "workshop-1-030",
+          "workshop-1-031",
+          "workshop-1-032",
+          "workshop-2-033",
+          "workshop-2-034",
+          "workshop-2-035",
+          "workshop-2-036",
+          "workshop-3-037",
+          "workshop-3-038",
+          "workshop-3-039",
+          "workshop-3-040",
+          "workshop-4-041",
+          "workshop-4-042",
+          "workshop-4-043",
+          "workshop-4-044",
+          "workshop-5-045",
+          "workshop-5-046",
+          "workshop-5-047",
+          "workshop-5-048",
+          "resp-069"
+        ],
+        "min_chars": 3,
+        "reflection_keys": [
+          "resp-069"
+        ],
+        "reflection_min_chars": 20
+      },
+      "hint": "No resuelvas las cinco expresiones. Para cada una identifica objeto, acción posible, información que falta y criterio de cierre."
+    },
+    {
+      "index": 147,
+      "focus_id": "unidad-9-f06",
+      "section_id": "unidad-9",
+      "section_title": "Taller final — Observa antes de responder",
+      "focus_label": "Ver referencia después de intentarlo",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Ver referencia después de intentarlo” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Ver referencia después de intentarlo"
+    },
+    {
+      "index": 148,
+      "focus_id": "unidad-9-f07",
+      "section_id": "unidad-9",
+      "section_title": "Taller final — Observa antes de responder",
+      "focus_label": "QUÉ FALTA EN CADA EXPRESIÓN",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “QUÉ FALTA EN CADA EXPRESIÓN 1 En la primera quizá necesitamos saber qué significa «revisar». 2 En la segunda necesitamos conocer la situación y el objetivo. 3 En la tercera necesitamos reconstruir aquello que estaba ocurriendo antes. 4 En la cuarta necesitamos saber bajo qué criterio algo puede considerarse correcto. 5 En la…” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "QUÉ FALTA EN CADA EXPRESIÓN 1 En la primera quizá necesitamos saber qué significa «revisar». 2 En la segunda necesitamos conocer la situación y el objetivo. 3 En la tercera necesitamos reconstruir aquello que estaba ocurriendo antes. 4 En la cuarta necesitamos saber bajo qué criterio algo puede considerarse correcto. 5 En la quinta necesitamos saber qué características de «esta» aplicación son relevantes, qué quiere conservar el usuario, qué quiere cambiar y qué resultado espera recibir. No hemos respondido ninguna pregunta. Pero ahora sabemos más sobre ellas. Eso es exactamente lo que quería conseguir esta clase."
+    },
+    {
+      "index": 149,
+      "focus_id": "unidad-9-f08",
+      "section_id": "unidad-9",
+      "section_title": "Taller final — Observa antes de responder",
+      "focus_label": "LABORATORIO IA · PRUEBA DE AMBIGÜEDAD",
+      "kind": "exercise",
+      "required": true,
+      "message": "Ahora hacemos un laboratorio **sin IA en vivo**. **Mira aquí**. He dejado tres respuestas simuladas y pregeneradas para que puedas observar diferencias de interpretación sin Ollama. Este es un **punto obligatorio**. Completa la actividad indicada; el botón **Siguiente** permanecerá bloqueado hasta que el punto quede registrado como superado.",
+      "source_excerpt": "LABORATORIO IA · PRUEBA DE AMBIGÜEDAD Elige una de las cinco expresiones del taller y ejecútala en dos asistentes distintos. Después añade contexto de forma progresiva, una pieza cada vez. En cada ronda anota si la interpretación cambia. El objetivo es detectar qué dato del contexto provoca qué cambio de conducta . Plantilla de registro Ronda 1 - Expresión sola: Interpretación observada: Ronda 2 - + objeto: Qué cambió: Ronda 3 - + objetivo: Qué cambió: Ronda 4 - + criterio de cierre: Qué cambió: Registro del laboratorio Sin responder Pista IA Revisar con IA",
+      "gate": {
+        "mode": "manual",
+        "description": "Lee las respuestas simuladas, escribe tu comparación y confirma el laboratorio.",
+        "text_keys": [
+          "resp-067"
+        ],
+        "min_chars": 24
+      },
+      "simulated_lab": {
+        "title": "SIMULACIÓN PREGENERADA · PRUEBA DE AMBIGÜEDAD",
+        "note": "La misma expresión recibe tres tratamientos para que observes cómo cambia la interpretación.",
+        "responses": [
+          {
+            "name": "Respuesta A",
+            "text": "Responde directamente con una interpretación plausible.",
+            "reading": "Prioriza fluidez.",
+            "evidence": "Convenciones habituales.",
+            "assumption": "Puede ocultar incertidumbre."
+          },
+          {
+            "name": "Respuesta B",
+            "text": "Enumera dos interpretaciones y explica qué dato falta para elegir.",
+            "reading": "Mantiene alternativas abiertas.",
+            "evidence": "Ambigüedad explícita.",
+            "assumption": "Reduce sobreinterpretación."
+          },
+          {
+            "name": "Respuesta C",
+            "text": "Formula una pregunta mínima de aclaración antes de ejecutar.",
+            "reading": "Prioriza control operacional.",
+            "evidence": "El resultado esperado no está determinado.",
+            "assumption": "No fuerza una salida."
+          }
+        ]
+      },
+      "hint": "Vuelve a la consigna y completa solo lo que puedas justificar con el contenido de la clase. No hace falta responder más de lo pedido."
+    },
+    {
+      "index": 150,
+      "focus_id": "unidad-9-f09",
+      "section_id": "unidad-9",
+      "section_title": "Taller final — Observa antes de responder",
+      "focus_label": "Al empezar, una pregunta parecía ser simplemente algo que debía producir una respuesta.",
+      "kind": "narrative",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Al empezar, una pregunta parecía ser simplemente algo que debía producir una respuesta.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Al empezar, una pregunta parecía ser simplemente algo que debía producir una respuesta."
+    },
+    {
+      "index": 151,
+      "focus_id": "unidad-9-f10",
+      "section_id": "unidad-9",
+      "section_title": "Taller final — Observa antes de responder",
+      "focus_label": "Ahora ya sabemos que puede existir un espacio entre ambas.",
+      "kind": "narrative",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Ahora ya sabemos que puede existir un espacio entre ambas.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Ahora ya sabemos que puede existir un espacio entre ambas."
+    },
+    {
+      "index": 152,
+      "focus_id": "unidad-9-f11",
+      "section_id": "unidad-9",
+      "section_title": "Taller final — Observa antes de responder",
+      "focus_label": "ENTRE LA PREGUNTA Y LA RESPUESTA HAY UN ESPACIO",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “ENTRE LA PREGUNTA Y LA RESPUESTA HAY UN ESPACIO 01 Un espacio donde intentamos reconstruir qué está ocurriendo. 02 Un espacio donde podemos acertar. 03 Un espacio donde podemos equivocarnos. 04 Un espacio donde el contexto importa. 05 Donde la intención importa. 06 Donde las palabras no siempre bastan. Y donde una respuesta muy…” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "ENTRE LA PREGUNTA Y LA RESPUESTA HAY UN ESPACIO 01 Un espacio donde intentamos reconstruir qué está ocurriendo. 02 Un espacio donde podemos acertar. 03 Un espacio donde podemos equivocarnos. 04 Un espacio donde el contexto importa. 05 Donde la intención importa. 06 Donde las palabras no siempre bastan. Y donde una respuesta muy buena puede fracasar si hemos comprendido mal aquello que debía responder."
+    },
+    {
+      "index": 153,
+      "focus_id": "unidad-10-f01",
+      "section_id": "unidad-10",
+      "section_title": "Cierre de la clase — Comprender antes de responder",
+      "focus_label": "CIERRE",
+      "kind": "lesson",
+      "required": false,
+      "message": "Entramos en **Cierre de la clase — Comprender antes de responder**. **Mira aquí**. No intentes abarcar toda la página: iremos fragmento por fragmento y el documento avanzará conmigo. Cuando estés situado, pulsa **Siguiente**.",
+      "source_excerpt": "C CIERRE Cierre de la clase — Comprender antes de responder Lo que ya puedes hacer"
+    },
+    {
+      "index": 154,
+      "focus_id": "unidad-10-f02",
+      "section_id": "unidad-10",
+      "section_title": "Cierre de la clase — Comprender antes de responder",
+      "focus_label": "Volvamos por última vez a nuestra primera frase.",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Volvamos por última vez a nuestra primera frase.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Volvamos por última vez a nuestra primera frase."
+    },
+    {
+      "index": 155,
+      "focus_id": "unidad-10-f03",
+      "section_id": "unidad-10",
+      "section_title": "Cierre de la clase — Comprender antes de responder",
+      "focus_label": "AL PRINCIPIO Al principio quizá habrías respondido: ¿Puedes mirar esto? Sí.",
+      "kind": "case",
+      "required": false,
+      "message": "Vamos a mirar un caso concreto. **Mira aquí**: AL PRINCIPIO Al principio quizá habrías respondido: ¿Puedes mirar esto? Sí. No busques todavía una definición general; identifica qué cambió entre la expresión y la acción esperada. Después pulsa **Siguiente**.",
+      "source_excerpt": "AL PRINCIPIO Al principio quizá habrías respondido: ¿Puedes mirar esto? Sí."
+    },
+    {
+      "index": 156,
+      "focus_id": "unidad-10-f04",
+      "section_id": "unidad-10",
+      "section_title": "Cierre de la clase — Comprender antes de responder",
+      "focus_label": "AHORA Ahora probablemente aparece otra reacción. ¿Puedes mirar esto? Espera. ¿Qué quieres exactamente que m…",
+      "kind": "case",
+      "required": false,
+      "message": "Vamos a mirar un caso concreto. **Mira aquí**: AHORA Ahora probablemente aparece otra reacción. ¿Puedes mirar esto? Espera. ¿Qué quieres exactamente que mire? ¿Para qué? ¿Qué esperas que haga con ello? No busques todavía una definición general; identifica qué cambió entre la expresión y la acción esperada. Después pulsa **Siguiente**.",
+      "source_excerpt": "AHORA Ahora probablemente aparece otra reacción. ¿Puedes mirar esto? Espera. ¿Qué quieres exactamente que mire? ¿Para qué? ¿Qué esperas que haga con ello?"
+    },
+    {
+      "index": 157,
+      "focus_id": "unidad-10-f05",
+      "section_id": "unidad-10",
+      "section_title": "Cierre de la clase — Comprender antes de responder",
+      "focus_label": "Ese «espera» es el verdadero resultado de esta clase. No significa que a partir de ahora tengamos que conve…",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Ese «espera» es el verdadero resultado de esta clase. No significa que a partir de ahora tengamos que convertir cualquier pregunta sencilla en una investigación interminable. Significa algo mucho más preciso. Hemos aprendido que existe una diferencia entre reaccionar a una frase y comprender una petición. LO QUE TODAVÍA NO…” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Ese «espera» es el verdadero resultado de esta clase. No significa que a partir de ahora tengamos que convertir cualquier pregunta sencilla en una investigación interminable. Significa algo mucho más preciso. Hemos aprendido que existe una diferencia entre reaccionar a una frase y comprender una petición. LO QUE TODAVÍA NO SABEMOS Todavía no sabemos analizarla completamente. Todavía no tenemos un método. Todavía no sabemos exactamente qué elementos contiene una pregunta. Eso empieza en la siguiente clase. Pero ya hemos adquirido la condición necesaria para aprenderlo. Ya sabemos que hay algo que mirar. El principio con el que el Volumen 0 resume esta etapa es muy sencillo: Comprender antes…"
+    },
+    {
+      "index": 158,
+      "focus_id": "unidad-10-f06",
+      "section_id": "unidad-10",
+      "section_title": "Cierre de la clase — Comprender antes de responder",
+      "focus_label": "LO QUE DEBES PODER HACER AHORA",
+      "kind": "key",
+      "required": false,
+      "message": "Detente en esta idea. **Mira aquí**: LO QUE DEBES PODER HACER AHORA detener la respuesta automática ante una expresión ambigua; distinguir palabras, interpretación y acción esperada; localizar qué parte del significado depende del contexto; separar evidencia de suposición; explicar qué falta antes de poder actuar con fundamento. Esta pieza es una conclusión provisional que utilizaremos después. Cuando la puedas repetir con tus propias palabras, pulsa **Siguiente**.",
+      "source_excerpt": "LO QUE DEBES PODER HACER AHORA detener la respuesta automática ante una expresión ambigua; distinguir palabras, interpretación y acción esperada; localizar qué parte del significado depende del contexto; separar evidencia de suposición; explicar qué falta antes de poder actuar con fundamento."
+    },
+    {
+      "index": 159,
+      "focus_id": "unidad-10-f07",
+      "section_id": "unidad-10",
+      "section_title": "Cierre de la clase — Comprender antes de responder",
+      "focus_label": "Y su criterio de éxito tampoco consiste todavía en encontrar la respuesta. Consiste en poder construir una …",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Y su criterio de éxito tampoco consiste todavía en encontrar la respuesta. Consiste en poder construir una representación justificable de aquello que realmente se está preguntando. Así que ahora sí estamos preparados para comenzar. Y la primera pregunta real del curso es inevitable. ¿Qué es una pregunta?” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Y su criterio de éxito tampoco consiste todavía en encontrar la respuesta. Consiste en poder construir una representación justificable de aquello que realmente se está preguntando. Así que ahora sí estamos preparados para comenzar. Y la primera pregunta real del curso es inevitable. ¿Qué es una pregunta?"
+    },
+    {
+      "index": 160,
+      "focus_id": "unidad-10-f08",
+      "section_id": "unidad-10",
+      "section_title": "Cierre de la clase — Comprender antes de responder",
+      "focus_label": "Autoevaluación",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Autoevaluación” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Autoevaluación"
+    },
+    {
+      "index": 161,
+      "focus_id": "unidad-10-f09",
+      "section_id": "unidad-10",
+      "section_title": "Cierre de la clase — Comprender antes de responder",
+      "focus_label": "Marca cada afirmación solo si puedes justificarla con un ejemplo propio. Puedo explicar por qué una respues…",
+      "kind": "exercise",
+      "required": true,
+      "message": "Ahora te toca trabajar. **Mira aquí**: Marca cada afirmación solo si puedes justificarla con un ejemplo propio. Puedo explicar por qué una respuesta correcta puede responder a la pregunta equivocada. Puedo dar un ejemplo donde la forma gramatical y la acción esperada no coincidan. Puedo describir una pregunta como transición entre estado actual y estado esperado.… Este es un **punto obligatorio**. Completa la actividad indicada; el botón **Siguiente** permanecerá bloqueado hasta que el punto quede registrado como superado.",
+      "source_excerpt": "Marca cada afirmación solo si puedes justificarla con un ejemplo propio. Puedo explicar por qué una respuesta correcta puede responder a la pregunta equivocada. Puedo dar un ejemplo donde la forma gramatical y la acción esperada no coincidan. Puedo describir una pregunta como transición entre estado actual y estado esperado. Puedo mostrar cómo el contexto cambia la interpretación de “Continúa”. Puedo distinguir una inferencia razonable de una invención. Puedo identificar qué necesito saber antes de “revisar” o “validar” algo. Ejemplo propio que justifique tu autoevaluación Sin responder Pista IA Revisar con IA",
+      "gate": {
+        "mode": "manual",
+        "description": "Completa la autoevaluación y escribe el ejemplo de transferencia antes de cerrar la clase.",
+        "check_keys": [
+          "selfcheck-054",
+          "selfcheck-055",
+          "selfcheck-056",
+          "selfcheck-057",
+          "selfcheck-058",
+          "selfcheck-059"
+        ],
+        "text_keys": [
+          "resp-070"
+        ],
+        "min_chars": 20
+      },
+      "hint": "Vuelve a la consigna y completa solo lo que puedas justificar con el contenido de la clase. No hace falta responder más de lo pedido."
+    },
+    {
+      "index": 162,
+      "focus_id": "unidad-10-f10",
+      "section_id": "unidad-10",
+      "section_title": "Cierre de la clase — Comprender antes de responder",
+      "focus_label": "Reto de transferencia",
+      "kind": "content",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Reto de transferencia” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Reto de transferencia"
+    },
+    {
+      "index": 163,
+      "focus_id": "unidad-10-f11",
+      "section_id": "unidad-10",
+      "section_title": "Cierre de la clase — Comprender antes de responder",
+      "focus_label": "Elige una petición real que hayas hecho esta semana a una persona o a una IA. Sin responderla, reconstruye …",
+      "kind": "narrative",
+      "required": false,
+      "message": "**Mira aquí**. Lee este fragmento conmigo: “Elige una petición real que hayas hecho esta semana a una persona o a una IA. Sin responderla, reconstruye cinco elementos: expresión, contexto, acción requerida, resultado esperado y criterio de cierre . Después compara esa reconstrucción con lo que realmente ocurrió.” Quédate con la idea que está introduciendo, sin adelantarte al siguiente bloque. Cuando la hayas entendido, pulsa **Siguiente**.",
+      "source_excerpt": "Elige una petición real que hayas hecho esta semana a una persona o a una IA. Sin responderla, reconstruye cinco elementos: expresión, contexto, acción requerida, resultado esperado y criterio de cierre . Después compara esa reconstrucción con lo que realmente ocurrió."
+    }
+  ]
+}
